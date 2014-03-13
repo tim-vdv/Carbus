@@ -93,6 +93,7 @@
             this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pnlPr = new System.Windows.Forms.Panel();
             this.lblPrInfo = new System.Windows.Forms.Label();
             this.lblPrProcent = new System.Windows.Forms.Label();
@@ -131,13 +132,13 @@
             this.lblStatus = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripDropDownButton2 = new System.Windows.Forms.ToolStripDropDownButton();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.toolStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.pnlPr.SuspendLayout();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic10FacVolledig)).BeginInit();
@@ -157,7 +158,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
             this.splitContainer2.Panel2.SuspendLayout();
             this.splitContainer2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -292,14 +292,14 @@
             // opdrachtToolStripMenuItem
             // 
             this.opdrachtToolStripMenuItem.Name = "opdrachtToolStripMenuItem";
-            this.opdrachtToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.opdrachtToolStripMenuItem.Size = new System.Drawing.Size(140, 24);
             this.opdrachtToolStripMenuItem.Text = "Opdracht";
             this.opdrachtToolStripMenuItem.Click += new System.EventHandler(this.opdrachtToolStripMenuItem_Click);
             // 
             // contractToolStripMenuItem2
             // 
             this.contractToolStripMenuItem2.Name = "contractToolStripMenuItem2";
-            this.contractToolStripMenuItem2.Size = new System.Drawing.Size(152, 24);
+            this.contractToolStripMenuItem2.Size = new System.Drawing.Size(140, 24);
             this.contractToolStripMenuItem2.Text = "Contract";
             this.contractToolStripMenuItem2.Click += new System.EventHandler(this.contractToolStripMenuItem_Click);
             // 
@@ -328,14 +328,14 @@
             // opdrachtToolStripMenuItem2
             // 
             this.opdrachtToolStripMenuItem2.Name = "opdrachtToolStripMenuItem2";
-            this.opdrachtToolStripMenuItem2.Size = new System.Drawing.Size(152, 24);
+            this.opdrachtToolStripMenuItem2.Size = new System.Drawing.Size(140, 24);
             this.opdrachtToolStripMenuItem2.Text = "Opdracht";
             this.opdrachtToolStripMenuItem2.Click += new System.EventHandler(this.opdrachtToolStripMenuItem2_Click);
             // 
             // contractToolStripMenuItem1
             // 
             this.contractToolStripMenuItem1.Name = "contractToolStripMenuItem1";
-            this.contractToolStripMenuItem1.Size = new System.Drawing.Size(152, 24);
+            this.contractToolStripMenuItem1.Size = new System.Drawing.Size(140, 24);
             this.contractToolStripMenuItem1.Text = "Contract";
             this.contractToolStripMenuItem1.Click += new System.EventHandler(this.contractToolStripMenuItem1_Click);
             // 
@@ -760,6 +760,17 @@
             this.toolStripSeparator10.Name = "toolStripSeparator10";
             this.toolStripSeparator10.Size = new System.Drawing.Size(288, 6);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Location = new System.Drawing.Point(437, 308);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(414, 156);
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
             // pnlPr
             // 
             this.pnlPr.BackColor = System.Drawing.SystemColors.InactiveBorder;
@@ -785,9 +796,8 @@
             this.lblPrInfo.Location = new System.Drawing.Point(9, 516);
             this.lblPrInfo.MaximumSize = new System.Drawing.Size(150, 0);
             this.lblPrInfo.Name = "lblPrInfo";
-            this.lblPrInfo.Size = new System.Drawing.Size(106, 17);
+            this.lblPrInfo.Size = new System.Drawing.Size(0, 17);
             this.lblPrInfo.TabIndex = 21;
-            this.lblPrInfo.Text = "Meer informatie";
             // 
             // lblPrProcent
             // 
@@ -795,9 +805,8 @@
             this.lblPrProcent.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPrProcent.Location = new System.Drawing.Point(51, 462);
             this.lblPrProcent.Name = "lblPrProcent";
-            this.lblPrProcent.Size = new System.Drawing.Size(48, 17);
+            this.lblPrProcent.Size = new System.Drawing.Size(0, 17);
             this.lblPrProcent.TabIndex = 20;
-            this.lblPrProcent.Text = "100%";
             // 
             // label15
             // 
@@ -805,9 +814,8 @@
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(9, 499);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(40, 17);
+            this.label15.Size = new System.Drawing.Size(0, 17);
             this.label15.TabIndex = 19;
-            this.label15.Text = "Info:";
             // 
             // groupBox4
             // 
@@ -1073,9 +1081,8 @@
             this.lblPrNaam.Location = new System.Drawing.Point(2, 32);
             this.lblPrNaam.MaximumSize = new System.Drawing.Size(150, 0);
             this.lblPrNaam.Name = "lblPrNaam";
-            this.lblPrNaam.Size = new System.Drawing.Size(43, 17);
+            this.lblPrNaam.Size = new System.Drawing.Size(0, 17);
             this.lblPrNaam.TabIndex = 5;
-            this.lblPrNaam.Text = "naam";
             // 
             // label11
             // 
@@ -1158,17 +1165,6 @@
             this.splitContainer2.SplitterDistance = 28;
             this.splitContainer2.TabIndex = 2;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(437, 308);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(414, 156);
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1195,6 +1191,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.pnlPr.ResumeLayout(false);
             this.pnlPr.PerformLayout();
             this.groupBox4.ResumeLayout(false);
@@ -1220,7 +1217,6 @@
             this.splitContainer2.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
             this.splitContainer2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

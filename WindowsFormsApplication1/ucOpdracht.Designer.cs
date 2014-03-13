@@ -136,9 +136,9 @@
             this.grbMemo.Controls.Add(this.txtMemo_chauffeur);
             this.grbMemo.Controls.Add(this.label17);
             this.grbMemo.Location = new System.Drawing.Point(30, 8);
-            this.grbMemo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grbMemo.Margin = new System.Windows.Forms.Padding(4);
             this.grbMemo.Name = "grbMemo";
-            this.grbMemo.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grbMemo.Padding = new System.Windows.Forms.Padding(4);
             this.grbMemo.Size = new System.Drawing.Size(909, 428);
             this.grbMemo.TabIndex = 3;
             this.grbMemo.TabStop = false;
@@ -148,7 +148,7 @@
             // 
             this.txtMemo_Bureel.Enabled = false;
             this.txtMemo_Bureel.Location = new System.Drawing.Point(595, 211);
-            this.txtMemo_Bureel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMemo_Bureel.Margin = new System.Windows.Forms.Padding(4);
             this.txtMemo_Bureel.Multiline = true;
             this.txtMemo_Bureel.Name = "txtMemo_Bureel";
             this.txtMemo_Bureel.Size = new System.Drawing.Size(275, 182);
@@ -170,7 +170,7 @@
             // 
             this.txtMemo_Klant.Enabled = false;
             this.txtMemo_Klant.Location = new System.Drawing.Point(154, 211);
-            this.txtMemo_Klant.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMemo_Klant.Margin = new System.Windows.Forms.Padding(4);
             this.txtMemo_Klant.Multiline = true;
             this.txtMemo_Klant.Name = "txtMemo_Klant";
             this.txtMemo_Klant.Size = new System.Drawing.Size(275, 182);
@@ -190,7 +190,7 @@
             // 
             this.txtMemo_Intern.Enabled = false;
             this.txtMemo_Intern.Location = new System.Drawing.Point(595, 21);
-            this.txtMemo_Intern.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMemo_Intern.Margin = new System.Windows.Forms.Padding(4);
             this.txtMemo_Intern.Multiline = true;
             this.txtMemo_Intern.Name = "txtMemo_Intern";
             this.txtMemo_Intern.Size = new System.Drawing.Size(275, 182);
@@ -210,7 +210,7 @@
             // 
             this.txtMemo_chauffeur.Enabled = false;
             this.txtMemo_chauffeur.Location = new System.Drawing.Point(154, 21);
-            this.txtMemo_chauffeur.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMemo_chauffeur.Margin = new System.Windows.Forms.Padding(4);
             this.txtMemo_chauffeur.Multiline = true;
             this.txtMemo_chauffeur.Name = "txtMemo_chauffeur";
             this.txtMemo_chauffeur.Size = new System.Drawing.Size(275, 182);
@@ -231,7 +231,7 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Location = new System.Drawing.Point(9, 35);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1066, 604);
@@ -247,9 +247,9 @@
             this.tabPage1.Controls.Add(this.btnAddReservatie);
             this.tabPage1.Controls.Add(this.groupBox1);
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage1.Size = new System.Drawing.Size(1058, 575);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Opdracht";
@@ -264,9 +264,9 @@
             this.grbPrijs.Controls.Add(this.txtVoorschot);
             this.grbPrijs.Controls.Add(this.label15);
             this.grbPrijs.Location = new System.Drawing.Point(549, 19);
-            this.grbPrijs.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grbPrijs.Margin = new System.Windows.Forms.Padding(4);
             this.grbPrijs.Name = "grbPrijs";
-            this.grbPrijs.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grbPrijs.Padding = new System.Windows.Forms.Padding(4);
             this.grbPrijs.Size = new System.Drawing.Size(474, 142);
             this.grbPrijs.TabIndex = 33;
             this.grbPrijs.TabStop = false;
@@ -277,7 +277,7 @@
             this.txtVoorschotDatum.Enabled = false;
             this.errorProvider1.SetIconPadding(this.txtVoorschotDatum, 2);
             this.txtVoorschotDatum.Location = new System.Drawing.Point(136, 89);
-            this.txtVoorschotDatum.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtVoorschotDatum.Margin = new System.Windows.Forms.Padding(4);
             this.txtVoorschotDatum.Mask = "00/00/0000";
             this.txtVoorschotDatum.Name = "txtVoorschotDatum";
             this.txtVoorschotDatum.Size = new System.Drawing.Size(150, 22);
@@ -298,7 +298,7 @@
             this.txtPrijs.Enabled = false;
             this.errorProvider1.SetIconPadding(this.txtPrijs, 2);
             this.txtPrijs.Location = new System.Drawing.Point(136, 24);
-            this.txtPrijs.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPrijs.Margin = new System.Windows.Forms.Padding(4);
             this.txtPrijs.Name = "txtPrijs";
             this.txtPrijs.Size = new System.Drawing.Size(150, 22);
             this.txtPrijs.TabIndex = 17;
@@ -318,7 +318,7 @@
             this.txtVoorschot.Enabled = false;
             this.errorProvider1.SetIconPadding(this.txtVoorschot, 2);
             this.txtVoorschot.Location = new System.Drawing.Point(136, 56);
-            this.txtVoorschot.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtVoorschot.Margin = new System.Windows.Forms.Padding(4);
             this.txtVoorschot.Name = "txtVoorschot";
             this.txtVoorschot.Size = new System.Drawing.Size(150, 22);
             this.txtVoorschot.TabIndex = 18;
@@ -342,7 +342,7 @@
             this.btnRemoveReservatie.FlatAppearance.BorderSize = 0;
             this.btnRemoveReservatie.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRemoveReservatie.Location = new System.Drawing.Point(512, 211);
-            this.btnRemoveReservatie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRemoveReservatie.Margin = new System.Windows.Forms.Padding(4);
             this.btnRemoveReservatie.Name = "btnRemoveReservatie";
             this.btnRemoveReservatie.Size = new System.Drawing.Size(29, 29);
             this.btnRemoveReservatie.TabIndex = 32;
@@ -355,9 +355,9 @@
             this.grbReservaties.Controls.Add(this.flpReservaties);
             this.grbReservaties.Controls.Add(this.flowLayoutPanel1);
             this.grbReservaties.Location = new System.Drawing.Point(549, 164);
-            this.grbReservaties.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grbReservaties.Margin = new System.Windows.Forms.Padding(4);
             this.grbReservaties.Name = "grbReservaties";
-            this.grbReservaties.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grbReservaties.Padding = new System.Windows.Forms.Padding(4);
             this.grbReservaties.Size = new System.Drawing.Size(474, 156);
             this.grbReservaties.TabIndex = 30;
             this.grbReservaties.TabStop = false;
@@ -368,7 +368,7 @@
             this.flpReservaties.AutoSize = true;
             this.flpReservaties.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flpReservaties.Location = new System.Drawing.Point(15, 24);
-            this.flpReservaties.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flpReservaties.Margin = new System.Windows.Forms.Padding(4);
             this.flpReservaties.Name = "flpReservaties";
             this.flpReservaties.Size = new System.Drawing.Size(405, 106);
             this.flpReservaties.TabIndex = 20;
@@ -379,7 +379,7 @@
             this.flowLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(8, 28);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(0, 0);
             this.flowLayoutPanel1.TabIndex = 2;
@@ -392,7 +392,7 @@
             this.btnAddReservatie.FlatAppearance.BorderSize = 0;
             this.btnAddReservatie.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddReservatie.Location = new System.Drawing.Point(512, 182);
-            this.btnAddReservatie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddReservatie.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddReservatie.Name = "btnAddReservatie";
             this.btnAddReservatie.Size = new System.Drawing.Size(29, 29);
             this.btnAddReservatie.TabIndex = 31;
@@ -404,9 +404,9 @@
             this.groupBox1.AutoSize = true;
             this.groupBox1.Controls.Add(this.flowLayoutPanel2);
             this.groupBox1.Location = new System.Drawing.Point(4, 8);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(507, 559);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
@@ -422,7 +422,7 @@
             this.flowLayoutPanel2.Controls.Add(this.panel5);
             this.flowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel2.Location = new System.Drawing.Point(9, 25);
-            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(490, 508);
             this.flowLayoutPanel2.TabIndex = 0;
@@ -458,7 +458,7 @@
             this.cbbKlant.FormattingEnabled = true;
             this.errorProvider1.SetIconPadding(this.cbbKlant, 2);
             this.cbbKlant.Location = new System.Drawing.Point(119, 40);
-            this.cbbKlant.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbKlant.Margin = new System.Windows.Forms.Padding(4);
             this.cbbKlant.Name = "cbbKlant";
             this.cbbKlant.Size = new System.Drawing.Size(300, 24);
             this.cbbKlant.TabIndex = 2;
@@ -471,7 +471,7 @@
             this.btnZoeken.FlatAppearance.BorderSize = 0;
             this.btnZoeken.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnZoeken.Location = new System.Drawing.Point(82, 4);
-            this.btnZoeken.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnZoeken.Margin = new System.Windows.Forms.Padding(4);
             this.btnZoeken.Name = "btnZoeken";
             this.btnZoeken.Size = new System.Drawing.Size(29, 29);
             this.btnZoeken.TabIndex = 2;
@@ -482,7 +482,7 @@
             // 
             this.txtTotUur.Enabled = false;
             this.txtTotUur.Location = new System.Drawing.Point(241, 108);
-            this.txtTotUur.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTotUur.Margin = new System.Windows.Forms.Padding(4);
             this.txtTotUur.Mask = "00:00";
             this.txtTotUur.Name = "txtTotUur";
             this.txtTotUur.Size = new System.Drawing.Size(49, 22);
@@ -497,7 +497,7 @@
             this.btnCopy.FlatAppearance.BorderSize = 0;
             this.btnCopy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCopy.Location = new System.Drawing.Point(358, 6);
-            this.btnCopy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCopy.Margin = new System.Windows.Forms.Padding(4);
             this.btnCopy.Name = "btnCopy";
             this.btnCopy.Size = new System.Drawing.Size(29, 29);
             this.btnCopy.TabIndex = 31;
@@ -508,7 +508,7 @@
             // 
             this.cbbID.FormattingEnabled = true;
             this.cbbID.Location = new System.Drawing.Point(119, 6);
-            this.cbbID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbID.Margin = new System.Windows.Forms.Padding(4);
             this.cbbID.Name = "cbbID";
             this.cbbID.Size = new System.Drawing.Size(230, 24);
             this.cbbID.TabIndex = 1;
@@ -528,7 +528,7 @@
             // 
             this.txtVanUur.Enabled = false;
             this.txtVanUur.Location = new System.Drawing.Point(119, 108);
-            this.txtVanUur.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtVanUur.Margin = new System.Windows.Forms.Padding(4);
             this.txtVanUur.Mask = "00:00";
             this.txtVanUur.Name = "txtVanUur";
             this.txtVanUur.Size = new System.Drawing.Size(49, 22);
@@ -570,7 +570,7 @@
             this.txtPlaatsen.Enabled = false;
             this.errorProvider1.SetIconPadding(this.txtPlaatsen, 2);
             this.txtPlaatsen.Location = new System.Drawing.Point(119, 140);
-            this.txtPlaatsen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPlaatsen.Margin = new System.Windows.Forms.Padding(4);
             this.txtPlaatsen.Name = "txtPlaatsen";
             this.txtPlaatsen.Size = new System.Drawing.Size(172, 22);
             this.txtPlaatsen.TabIndex = 8;
@@ -581,7 +581,7 @@
             this.dtVan.Enabled = false;
             this.dtVan.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtVan.Location = new System.Drawing.Point(119, 75);
-            this.dtVan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtVan.Margin = new System.Windows.Forms.Padding(4);
             this.dtVan.Name = "dtVan";
             this.dtVan.Size = new System.Drawing.Size(99, 22);
             this.dtVan.TabIndex = 3;
@@ -601,7 +601,7 @@
             this.dtTot.Enabled = false;
             this.dtTot.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtTot.Location = new System.Drawing.Point(226, 75);
-            this.dtTot.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtTot.Margin = new System.Windows.Forms.Padding(4);
             this.dtTot.Name = "dtTot";
             this.dtTot.Size = new System.Drawing.Size(99, 22);
             this.dtTot.TabIndex = 4;
@@ -610,7 +610,7 @@
             // txtAantalDagen
             // 
             this.txtAantalDagen.Location = new System.Drawing.Point(334, 74);
-            this.txtAantalDagen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtAantalDagen.Margin = new System.Windows.Forms.Padding(4);
             this.txtAantalDagen.Name = "txtAantalDagen";
             this.txtAantalDagen.ReadOnly = true;
             this.txtAantalDagen.Size = new System.Drawing.Size(40, 22);
@@ -643,7 +643,7 @@
             this.flpChauffeurs.AutoSize = true;
             this.flpChauffeurs.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flpChauffeurs.Location = new System.Drawing.Point(139, 4);
-            this.flpChauffeurs.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flpChauffeurs.Margin = new System.Windows.Forms.Padding(4);
             this.flpChauffeurs.Name = "flpChauffeurs";
             this.flpChauffeurs.Size = new System.Drawing.Size(331, 31);
             this.flpChauffeurs.TabIndex = 9;
@@ -656,7 +656,7 @@
             this.btnAddChauffeur.FlatAppearance.BorderSize = 0;
             this.btnAddChauffeur.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddChauffeur.Location = new System.Drawing.Point(94, 4);
-            this.btnAddChauffeur.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddChauffeur.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddChauffeur.Name = "btnAddChauffeur";
             this.btnAddChauffeur.Size = new System.Drawing.Size(38, 31);
             this.btnAddChauffeur.TabIndex = 81;
@@ -690,7 +690,7 @@
             this.flpVoertuigen.AutoSize = true;
             this.flpVoertuigen.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flpVoertuigen.Location = new System.Drawing.Point(139, 4);
-            this.flpVoertuigen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flpVoertuigen.Margin = new System.Windows.Forms.Padding(4);
             this.flpVoertuigen.Name = "flpVoertuigen";
             this.flpVoertuigen.Size = new System.Drawing.Size(331, 31);
             this.flpVoertuigen.TabIndex = 10;
@@ -703,7 +703,7 @@
             this.btnAddVoertuig.FlatAppearance.BorderSize = 0;
             this.btnAddVoertuig.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddVoertuig.Location = new System.Drawing.Point(94, 4);
-            this.btnAddVoertuig.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddVoertuig.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddVoertuig.Name = "btnAddVoertuig";
             this.btnAddVoertuig.Size = new System.Drawing.Size(38, 31);
             this.btnAddVoertuig.TabIndex = 81;
@@ -738,7 +738,7 @@
             this.cbbLeverancier.FormattingEnabled = true;
             this.errorProvider1.SetIconPadding(this.cbbLeverancier, 29);
             this.cbbLeverancier.Location = new System.Drawing.Point(196, 4);
-            this.cbbLeverancier.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbLeverancier.Margin = new System.Windows.Forms.Padding(4);
             this.cbbLeverancier.Name = "cbbLeverancier";
             this.cbbLeverancier.Size = new System.Drawing.Size(182, 24);
             this.cbbLeverancier.TabIndex = 11;
@@ -748,7 +748,7 @@
             this.txtGezelschap.Enabled = false;
             this.errorProvider1.SetIconPadding(this.txtGezelschap, 2);
             this.txtGezelschap.Location = new System.Drawing.Point(119, 38);
-            this.txtGezelschap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtGezelschap.Margin = new System.Windows.Forms.Padding(4);
             this.txtGezelschap.Name = "txtGezelschap";
             this.txtGezelschap.Size = new System.Drawing.Size(300, 22);
             this.txtGezelschap.TabIndex = 12;
@@ -771,7 +771,7 @@
             this.btnNieuwLeverancier.FlatAppearance.BorderSize = 0;
             this.btnNieuwLeverancier.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNieuwLeverancier.Location = new System.Drawing.Point(382, 1);
-            this.btnNieuwLeverancier.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNieuwLeverancier.Margin = new System.Windows.Forms.Padding(4);
             this.btnNieuwLeverancier.Name = "btnNieuwLeverancier";
             this.btnNieuwLeverancier.Size = new System.Drawing.Size(38, 29);
             this.btnNieuwLeverancier.TabIndex = 17;
@@ -796,7 +796,7 @@
             this.cbbBestemming.FormattingEnabled = true;
             this.errorProvider1.SetIconPadding(this.cbbBestemming, 29);
             this.cbbBestemming.Location = new System.Drawing.Point(119, 136);
-            this.cbbBestemming.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbBestemming.Margin = new System.Windows.Forms.Padding(4);
             this.cbbBestemming.Name = "cbbBestemming";
             this.cbbBestemming.Size = new System.Drawing.Size(255, 24);
             this.cbbBestemming.Sorted = true;
@@ -821,7 +821,7 @@
             this.cbbVertrek.FormattingEnabled = true;
             this.errorProvider1.SetIconPadding(this.cbbVertrek, 29);
             this.cbbVertrek.Location = new System.Drawing.Point(119, 102);
-            this.cbbVertrek.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbVertrek.Margin = new System.Windows.Forms.Padding(4);
             this.cbbVertrek.Name = "cbbVertrek";
             this.cbbVertrek.Size = new System.Drawing.Size(255, 24);
             this.cbbVertrek.Sorted = true;
@@ -848,7 +848,7 @@
             this.btnNieuwAdres2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNieuwAdres2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNieuwAdres2.Location = new System.Drawing.Point(382, 135);
-            this.btnNieuwAdres2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNieuwAdres2.Margin = new System.Windows.Forms.Padding(4);
             this.btnNieuwAdres2.Name = "btnNieuwAdres2";
             this.btnNieuwAdres2.Size = new System.Drawing.Size(29, 26);
             this.btnNieuwAdres2.TabIndex = 23;
@@ -871,7 +871,7 @@
             this.txtOmschrijving.Enabled = false;
             this.errorProvider1.SetIconPadding(this.txtOmschrijving, 2);
             this.txtOmschrijving.Location = new System.Drawing.Point(119, 70);
-            this.txtOmschrijving.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtOmschrijving.Margin = new System.Windows.Forms.Padding(4);
             this.txtOmschrijving.Name = "txtOmschrijving";
             this.txtOmschrijving.Size = new System.Drawing.Size(300, 22);
             this.txtOmschrijving.TabIndex = 13;
@@ -885,7 +885,7 @@
             this.btnNieuwAdres.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNieuwAdres.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNieuwAdres.Location = new System.Drawing.Point(382, 102);
-            this.btnNieuwAdres.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNieuwAdres.Margin = new System.Windows.Forms.Padding(4);
             this.btnNieuwAdres.Name = "btnNieuwAdres";
             this.btnNieuwAdres.Size = new System.Drawing.Size(29, 26);
             this.btnNieuwAdres.TabIndex = 21;
@@ -924,7 +924,7 @@
             this.btnRemoveLocatie.FlatAppearance.BorderSize = 0;
             this.btnRemoveLocatie.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRemoveLocatie.Location = new System.Drawing.Point(82, 32);
-            this.btnRemoveLocatie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRemoveLocatie.Margin = new System.Windows.Forms.Padding(4);
             this.btnRemoveLocatie.Name = "btnRemoveLocatie";
             this.btnRemoveLocatie.Size = new System.Drawing.Size(29, 29);
             this.btnRemoveLocatie.TabIndex = 25;
@@ -936,7 +936,7 @@
             this.flpVia.AutoSize = true;
             this.flpVia.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flpVia.Location = new System.Drawing.Point(119, 4);
-            this.flpVia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flpVia.Margin = new System.Windows.Forms.Padding(4);
             this.flpVia.Name = "flpVia";
             this.flpVia.Size = new System.Drawing.Size(301, 58);
             this.flpVia.TabIndex = 16;
@@ -949,7 +949,7 @@
             this.btnAddLocatie.FlatAppearance.BorderSize = 0;
             this.btnAddLocatie.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddLocatie.Location = new System.Drawing.Point(82, 4);
-            this.btnAddLocatie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddLocatie.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddLocatie.Name = "btnAddLocatie";
             this.btnAddLocatie.Size = new System.Drawing.Size(29, 29);
             this.btnAddLocatie.TabIndex = 24;
@@ -962,9 +962,9 @@
             this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage2.Controls.Add(this.grbMemo);
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage2.Size = new System.Drawing.Size(1058, 575);
             this.tabPage2.TabIndex = 3;
             this.tabPage2.Text = "Memo\'s";
@@ -977,7 +977,7 @@
             this.btnAnnuleren.FlatAppearance.BorderSize = 0;
             this.btnAnnuleren.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAnnuleren.Location = new System.Drawing.Point(45, 641);
-            this.btnAnnuleren.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAnnuleren.Margin = new System.Windows.Forms.Padding(4);
             this.btnAnnuleren.Name = "btnAnnuleren";
             this.btnAnnuleren.Size = new System.Drawing.Size(28, 28);
             this.btnAnnuleren.TabIndex = 38;
@@ -994,7 +994,7 @@
             this.btnOpslaan.FlatAppearance.BorderSize = 0;
             this.btnOpslaan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOpslaan.Location = new System.Drawing.Point(10, 641);
-            this.btnOpslaan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnOpslaan.Margin = new System.Windows.Forms.Padding(4);
             this.btnOpslaan.Name = "btnOpslaan";
             this.btnOpslaan.Size = new System.Drawing.Size(28, 28);
             this.btnOpslaan.TabIndex = 37;
@@ -1013,7 +1013,7 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(699, 641);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(161, 26);
             this.button1.TabIndex = 43;
@@ -1030,7 +1030,7 @@
             this.btnVoorschotPrint.FlatAppearance.BorderSize = 0;
             this.btnVoorschotPrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoorschotPrint.Location = new System.Drawing.Point(508, 641);
-            this.btnVoorschotPrint.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnVoorschotPrint.Margin = new System.Windows.Forms.Padding(4);
             this.btnVoorschotPrint.Name = "btnVoorschotPrint";
             this.btnVoorschotPrint.Size = new System.Drawing.Size(195, 26);
             this.btnVoorschotPrint.TabIndex = 42;
@@ -1047,7 +1047,7 @@
             this.btnPrint.FlatAppearance.BorderSize = 0;
             this.btnPrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrint.Location = new System.Drawing.Point(80, 641);
-            this.btnPrint.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPrint.Margin = new System.Windows.Forms.Padding(4);
             this.btnPrint.Name = "btnPrint";
             this.btnPrint.Size = new System.Drawing.Size(196, 26);
             this.btnPrint.TabIndex = 41;
@@ -1071,7 +1071,7 @@
             // 
             this.lblOpdracht.AutoSize = true;
             this.lblOpdracht.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOpdracht.Location = new System.Drawing.Point(4, 6);
+            this.lblOpdracht.Location = new System.Drawing.Point(4, 7);
             this.lblOpdracht.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblOpdracht.Name = "lblOpdracht";
             this.lblOpdracht.Size = new System.Drawing.Size(166, 24);
@@ -1085,7 +1085,7 @@
             this.btnInternatPrint.FlatAppearance.BorderSize = 0;
             this.btnInternatPrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInternatPrint.Location = new System.Drawing.Point(284, 641);
-            this.btnInternatPrint.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnInternatPrint.Margin = new System.Windows.Forms.Padding(4);
             this.btnInternatPrint.Name = "btnInternatPrint";
             this.btnInternatPrint.Size = new System.Drawing.Size(216, 26);
             this.btnInternatPrint.TabIndex = 47;
@@ -1111,7 +1111,7 @@
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.btnPrint);
             this.Controls.Add(this.btnVoorschotPrint);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ucOpdracht";
             this.Size = new System.Drawing.Size(1101, 680);
             this.grbMemo.ResumeLayout(false);

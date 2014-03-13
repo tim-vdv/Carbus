@@ -30,156 +30,120 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ucChauffeurTeRijdenOpdrachten));
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.flpOpdrachten = new System.Windows.Forms.FlowLayoutPanel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Voertuig = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Klant = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Datum = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Uur = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Omschrijving = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Plaats = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnOphalen = new System.Windows.Forms.Button();
             this.cbbChauffeur = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnPrint = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.AutoSize = true;
-            this.flowLayoutPanel1.Controls.Add(this.tableLayoutPanel2);
             this.flowLayoutPanel1.Controls.Add(this.flpOpdrachten);
+            this.flowLayoutPanel1.Controls.Add(this.dataGridView1);
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 31);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(4, 38);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(665, 113);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(887, 198);
             this.flowLayoutPanel1.TabIndex = 13;
-            // 
-            // tableLayoutPanel2
-            // 
-            this.tableLayoutPanel2.BackColor = System.Drawing.SystemColors.Control;
-            this.tableLayoutPanel2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel2.ColumnCount = 7;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 199F));
-            this.tableLayoutPanel2.Controls.Add(this.label9, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label2, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label3, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label4, 3, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label5, 4, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label6, 5, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label7, 6, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 1;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(659, 27);
-            this.tableLayoutPanel2.TabIndex = 95;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label9.Location = new System.Drawing.Point(4, 1);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(24, 25);
-            this.label9.TabIndex = 89;
-            this.label9.Text = "ID:";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Location = new System.Drawing.Point(35, 1);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 25);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Voertuig";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label3.Location = new System.Drawing.Point(111, 1);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(94, 25);
-            this.label3.TabIndex = 10;
-            this.label3.Text = "Klant";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label4.Location = new System.Drawing.Point(212, 1);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(94, 25);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Datum";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label5.Location = new System.Drawing.Point(313, 1);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(44, 25);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Uur";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label6.Location = new System.Drawing.Point(364, 1);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(94, 25);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Omschrijving";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label7.Location = new System.Drawing.Point(465, 1);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(193, 25);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "Plaats";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // flpOpdrachten
             // 
             this.flpOpdrachten.AutoSize = true;
             this.flpOpdrachten.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flpOpdrachten.Location = new System.Drawing.Point(0, 36);
-            this.flpOpdrachten.Margin = new System.Windows.Forms.Padding(0, 3, 0, 0);
+            this.flpOpdrachten.Location = new System.Drawing.Point(0, 4);
+            this.flpOpdrachten.Margin = new System.Windows.Forms.Padding(0, 4, 0, 0);
             this.flpOpdrachten.Name = "flpOpdrachten";
             this.flpOpdrachten.Size = new System.Drawing.Size(0, 0);
             this.flpOpdrachten.TabIndex = 0;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID,
+            this.Voertuig,
+            this.Klant,
+            this.Datum,
+            this.Uur,
+            this.Omschrijving,
+            this.Plaats});
+            this.dataGridView1.Location = new System.Drawing.Point(3, 7);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.Size = new System.Drawing.Size(868, 150);
+            this.dataGridView1.TabIndex = 124;
+            this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
+            // 
+            // ID
+            // 
+            this.ID.HeaderText = "ID";
+            this.ID.Name = "ID";
+            this.ID.ReadOnly = true;
+            // 
+            // Voertuig
+            // 
+            this.Voertuig.HeaderText = "Voertuig";
+            this.Voertuig.Name = "Voertuig";
+            this.Voertuig.ReadOnly = true;
+            // 
+            // Klant
+            // 
+            this.Klant.HeaderText = "Klant";
+            this.Klant.Name = "Klant";
+            this.Klant.ReadOnly = true;
+            // 
+            // Datum
+            // 
+            this.Datum.HeaderText = "Datum";
+            this.Datum.Name = "Datum";
+            this.Datum.ReadOnly = true;
+            // 
+            // Uur
+            // 
+            this.Uur.HeaderText = "Uur";
+            this.Uur.Name = "Uur";
+            this.Uur.ReadOnly = true;
+            // 
+            // Omschrijving
+            // 
+            this.Omschrijving.HeaderText = "Omschrijving";
+            this.Omschrijving.Name = "Omschrijving";
+            this.Omschrijving.ReadOnly = true;
+            // 
+            // Plaats
+            // 
+            this.Plaats.HeaderText = "Plaats";
+            this.Plaats.Name = "Plaats";
+            this.Plaats.ReadOnly = true;
+            // 
             // btnOphalen
             // 
             this.btnOphalen.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnOphalen.BackgroundImage")));
-            this.btnOphalen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnOphalen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnOphalen.FlatAppearance.BorderSize = 0;
             this.btnOphalen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOphalen.Location = new System.Drawing.Point(608, 4);
+            this.btnOphalen.Location = new System.Drawing.Point(811, 5);
+            this.btnOphalen.Margin = new System.Windows.Forms.Padding(4);
             this.btnOphalen.Name = "btnOphalen";
-            this.btnOphalen.Size = new System.Drawing.Size(23, 21);
+            this.btnOphalen.Size = new System.Drawing.Size(31, 26);
             this.btnOphalen.TabIndex = 12;
             this.btnOphalen.UseVisualStyleBackColor = true;
             this.btnOphalen.Click += new System.EventHandler(this.btnOphalen_Click);
@@ -187,18 +151,20 @@
             // cbbChauffeur
             // 
             this.cbbChauffeur.FormattingEnabled = true;
-            this.cbbChauffeur.Location = new System.Drawing.Point(446, 4);
+            this.cbbChauffeur.Location = new System.Drawing.Point(595, 5);
+            this.cbbChauffeur.Margin = new System.Windows.Forms.Padding(4);
             this.cbbChauffeur.Name = "cbbChauffeur";
-            this.cbbChauffeur.Size = new System.Drawing.Size(156, 21);
+            this.cbbChauffeur.Size = new System.Drawing.Size(207, 24);
             this.cbbChauffeur.TabIndex = 11;
             this.cbbChauffeur.SelectedIndexChanged += new System.EventHandler(this.cbbChauffeur_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(384, 7);
+            this.label1.Location = new System.Drawing.Point(513, 10);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 13);
+            this.label1.Size = new System.Drawing.Size(74, 17);
             this.label1.TabIndex = 10;
             this.label1.Text = "Chauffeur:";
             // 
@@ -208,29 +174,41 @@
             this.btnPrint.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnPrint.FlatAppearance.BorderSize = 0;
             this.btnPrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPrint.Location = new System.Drawing.Point(637, 3);
+            this.btnPrint.Location = new System.Drawing.Point(849, 4);
+            this.btnPrint.Margin = new System.Windows.Forms.Padding(4);
             this.btnPrint.Name = "btnPrint";
-            this.btnPrint.Size = new System.Drawing.Size(23, 23);
+            this.btnPrint.Size = new System.Drawing.Size(31, 28);
             this.btnPrint.TabIndex = 123;
             this.btnPrint.UseVisualStyleBackColor = true;
             this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(4, 7);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(196, 24);
+            this.label2.TabIndex = 124;
+            this.label2.Text = "Te rijden opdrachten";
+            // 
             // ucChauffeurTeRijdenOpdrachten
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnPrint);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.btnOphalen);
             this.Controls.Add(this.cbbChauffeur);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ucChauffeurTeRijdenOpdrachten";
-            this.Size = new System.Drawing.Size(685, 168);
+            this.Size = new System.Drawing.Size(913, 358);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
-            this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -243,14 +221,15 @@
         private System.Windows.Forms.Button btnOphalen;
         private System.Windows.Forms.ComboBox cbbChauffeur;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnPrint;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Voertuig;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Klant;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Datum;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Uur;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Omschrijving;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Plaats;
+        private System.Windows.Forms.Label label2;
     }
 }

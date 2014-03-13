@@ -64,19 +64,25 @@ namespace CarBus.Statistiek
         private void btnOphalen_Click(object sender, EventArgs e)
         {
             flpOpdrachten.Controls.Clear();
-
+            dataGridView1.AutoGenerateColumns = false;
+            int countOpdracht = 0;
             Decimal totaal = 0;
             klant klant = (klant)cbbKlant.SelectedItem;
+            dataGridView1.DataSource = KlantManagement.getOnbetaaldeOpdrachtenVanKlant(klant);
 
             foreach (opdracht opdracht in KlantManagement.getOnbetaaldeOpdrachtenVanKlant(klant))
             {
-                ucOpdrachtPrijs uco = new ucOpdrachtPrijs();
-                uco.opdracht = opdracht;
-                uco.OnButtonclick += new EventHandler(uco_OnButtonclick);
 
                 totaal = totaal + Convert.ToDecimal(opdracht.offerte_totaal);
 
-                flpOpdrachten.Controls.Add(uco);
+                dataGridView1.Rows[countOpdracht].Cells["ID"].Value = opdracht.opdracht_id.ToString();
+                dataGridView1.Rows[countOpdracht].Cells["Datum"].Value = opdracht.vanaf_datum.ToString("dd-MM-yyyy");
+                dataGridView1.Rows[countOpdracht].Cells["PL"].Value = opdracht.aantal_personen.ToString();
+                dataGridView1.Rows[countOpdracht].Cells["Vertrek"].Value = OpdrachtManagement.getVertrek(opdracht.opdracht_id).FullAdress;
+                dataGridView1.Rows[countOpdracht].Cells["Bestemming"].Value = OpdrachtManagement.getBestemming(opdracht.opdracht_id).FullAdress;
+                dataGridView1.Rows[countOpdracht].Cells["Prijs"].Value = opdracht.offerte_totaal.ToString();
+
+                countOpdracht++;
             }
 
             txtTotaal.Text = totaal.ToString();
@@ -118,6 +124,47 @@ namespace CarBus.Statistiek
             Bitmap bmp = new Bitmap(this.flowLayoutPanel1.Width, this.flowLayoutPanel1.Height);
             this.flowLayoutPanel1.DrawToBitmap(bmp, new Rectangle(0, 0, this.flowLayoutPanel1.Width, this.flowLayoutPanel1.Height));
             e.Graphics.DrawImage((Image)bmp, x, y);
+        }
+
+        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            var rowindex = dataGridView1.CurrentCell.RowIndex;
+            var value = dataGridView1.Rows[rowindex].Cells["ID"].Value;
+            int valueInt = Convert.ToInt16(value);
+            opdracht opdracht = OpdrachtManagement.getOpdracht(valueInt);
+
+            this.Controls.Clear();
+
+            ucFactuur uc = new ucFactuur();
+            uc.opdracht = opdracht;
+            this.Controls.Add(uc);
+        }
+
+        private void cbbKlant_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            flpOpdrachten.Controls.Clear();
+            dataGridView1.AutoGenerateColumns = false;
+            int countOpdracht = 0;
+            Decimal totaal = 0;
+            klant klant = (klant)cbbKlant.SelectedItem;
+            dataGridView1.DataSource = KlantManagement.getOnbetaaldeOpdrachtenVanKlant(klant);
+
+            foreach (opdracht opdracht in KlantManagement.getOnbetaaldeOpdrachtenVanKlant(klant))
+            {
+
+                totaal = totaal + Convert.ToDecimal(opdracht.offerte_totaal);
+
+                dataGridView1.Rows[countOpdracht].Cells["ID"].Value = opdracht.opdracht_id.ToString();
+                dataGridView1.Rows[countOpdracht].Cells["Datum"].Value = opdracht.vanaf_datum.ToString("dd-MM-yyyy");
+                dataGridView1.Rows[countOpdracht].Cells["PL"].Value = opdracht.aantal_personen.ToString();
+                dataGridView1.Rows[countOpdracht].Cells["Vertrek"].Value = OpdrachtManagement.getVertrek(opdracht.opdracht_id).FullAdress;
+                dataGridView1.Rows[countOpdracht].Cells["Bestemming"].Value = OpdrachtManagement.getBestemming(opdracht.opdracht_id).FullAdress;
+                dataGridView1.Rows[countOpdracht].Cells["Prijs"].Value = opdracht.offerte_totaal.ToString();
+
+                countOpdracht++;
+            }
+
+            txtTotaal.Text = totaal.ToString();
         }
 
 

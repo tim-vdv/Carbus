@@ -395,7 +395,6 @@ namespace CarBus
             //Nieuwe control aanmaken voor aan panel toe te voegen
             uc = new ucKlantBetalingen();
 
-            uc.Anchor = AnchorStyles.Top;
             splitContainer1.Panel2.Controls.Add(uc);
 
             lblStatus.Text = "Betalingen Per Klant";
@@ -409,13 +408,6 @@ namespace CarBus
             //Nieuwe control aanmaken voor aan panel toe te voegen
             uc = new ucKlantOpdrachten();
 
-            uc.Location = new Point(
-                        splitContainer1.Panel2.ClientSize.Width / 2 - uc.Size.Width / 2,
-                        splitContainer1.Panel2.ClientSize.Height / 2 - uc.Size.Height / 2);
-
-            uc.AutoSize = true;
-            uc.Resize += DoResize;
-            splitContainer1.Panel2.Resize += DoResize;
             splitContainer1.Panel2.AutoScroll = false;
             splitContainer1.Panel2.Controls.Add(uc);
 
@@ -429,14 +421,6 @@ namespace CarBus
 
             //Nieuwe control aanmaken voor aan panel toe te voegen
             uc = new ucKlantOffertes();
-
-            uc.Location = new Point(
-                        splitContainer1.Panel2.ClientSize.Width / 2 - uc.Size.Width / 2,
-                        splitContainer1.Panel2.ClientSize.Height / 2 - uc.Size.Height / 2);
-
-            uc.AutoSize = true;
-            uc.Resize += DoResize;
-            splitContainer1.Panel2.Resize += DoResize;
             splitContainer1.Panel2.AutoScroll = false;
             splitContainer1.Panel2.Controls.Add(uc);
 

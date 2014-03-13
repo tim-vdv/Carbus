@@ -64,14 +64,16 @@ namespace CarBus.Statistiek
         private void btnOphalen_Click(object sender, EventArgs e)
         {
             flpOpdrachten.Controls.Clear();
-
+            dataGridView1.AutoGenerateColumns = false;
+            int countOpdracht = 0;
             leverancier leverancier = (leverancier)cbbLeverancier.SelectedItem;
+            dataGridView1.DataSource = LeverancierManagement.getOpdrachtenVanLeverancier(leverancier);
 
             foreach (opdracht opdracht in LeverancierManagement.getOpdrachtenVanLeverancier(leverancier))
             {
-                ucLeverancierOpdracht uco = new ucLeverancierOpdracht();
-                uco.opdracht = opdracht;
-                uco.OnButtonclick += new EventHandler(uco_OnButtonclick);
+                //ucLeverancierOpdracht uco = new ucLeverancierOpdracht();
+                //uco.opdracht = opdracht;
+                //uco.OnButtonclick += new EventHandler(uco_OnButtonclick);
 
                 //if (opdracht.contract == false)
                 //{
@@ -81,9 +83,16 @@ namespace CarBus.Statistiek
                 //{
                 //    uco.achtergrond = Color.ForestGreen;
                 //}
+                dataGridView1.Rows[countOpdracht].Cells["ID"].Value = opdracht.opdracht_id.ToString();
+                dataGridView1.Rows[countOpdracht].Cells["Omschrijving"].Value = opdracht.ritomschrijving;
+                dataGridView1.Rows[countOpdracht].Cells["PL"].Value = opdracht.aantal_personen.ToString();
+                dataGridView1.Rows[countOpdracht].Cells["Klant"].Value = opdracht.klant.naam;
+                dataGridView1.Rows[countOpdracht].Cells["Plaats"].Value = OpdrachtManagement.getVertrek(opdracht.opdracht_id).FullAdress;
+                dataGridView1.Rows[countOpdracht].Cells["Uur"].Value = opdracht.vanaf_uur;
+                dataGridView1.Rows[countOpdracht].Cells["Datum"].Value = opdracht.vanaf_datum.ToString("dd-MM-yyyy");
 
-
-                flpOpdrachten.Controls.Add(uco);
+                countOpdracht ++;
+                //flpOpdrachten.Controls.Add(uco);
             }
         }
 
@@ -126,5 +135,54 @@ namespace CarBus.Statistiek
             e.Graphics.DrawImage((Image)bmp, x, y);
         }
         #endregion
+
+        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            var rowindex = dataGridView1.CurrentCell.RowIndex;
+            var value = dataGridView1.Rows[rowindex].Cells["ID"].Value;
+            int valueInt = Convert.ToInt16(value);
+            opdracht opdracht = OpdrachtManagement.getOpdracht(valueInt);
+
+            this.Controls.Clear();
+
+            ucOpdracht uc = new ucOpdracht();
+            uc.opdracht = opdracht;
+            this.Controls.Add(uc);
+        }
+
+        private void cbbLeverancier_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            flpOpdrachten.Controls.Clear();
+            dataGridView1.AutoGenerateColumns = false;
+            int countOpdracht = 0;
+            leverancier leverancier = (leverancier)cbbLeverancier.SelectedItem;
+            dataGridView1.DataSource = LeverancierManagement.getOpdrachtenVanLeverancier(leverancier);
+
+            foreach (opdracht opdracht in LeverancierManagement.getOpdrachtenVanLeverancier(leverancier))
+            {
+                //ucLeverancierOpdracht uco = new ucLeverancierOpdracht();
+                //uco.opdracht = opdracht;
+                //uco.OnButtonclick += new EventHandler(uco_OnButtonclick);
+
+                //if (opdracht.contract == false)
+                //{
+                //    uco.achtergrond =  Color.CornflowerBlue;
+                //}
+                //else if (opdracht.contract == true)
+                //{
+                //    uco.achtergrond = Color.ForestGreen;
+                //}
+                dataGridView1.Rows[countOpdracht].Cells["ID"].Value = opdracht.opdracht_id.ToString();
+                dataGridView1.Rows[countOpdracht].Cells["Omschrijving"].Value = opdracht.ritomschrijving;
+                dataGridView1.Rows[countOpdracht].Cells["PL"].Value = opdracht.aantal_personen.ToString();
+                dataGridView1.Rows[countOpdracht].Cells["Klant"].Value = opdracht.klant.naam;
+                dataGridView1.Rows[countOpdracht].Cells["Plaats"].Value = OpdrachtManagement.getVertrek(opdracht.opdracht_id).FullAdress;
+                dataGridView1.Rows[countOpdracht].Cells["Uur"].Value = opdracht.vanaf_uur;
+                dataGridView1.Rows[countOpdracht].Cells["Datum"].Value = opdracht.vanaf_datum.ToString("dd-MM-yyyy");
+
+                countOpdracht++;
+                //flpOpdrachten.Controls.Add(uco);
+            }
+        }
     }
 }

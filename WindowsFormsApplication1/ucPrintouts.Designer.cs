@@ -35,7 +35,7 @@
             // 
             // btnVerslag
             // 
-            this.btnVerslag.Location = new System.Drawing.Point(131, 47);
+            this.btnVerslag.Location = new System.Drawing.Point(117, 35);
             this.btnVerslag.Name = "btnVerslag";
             this.btnVerslag.Size = new System.Drawing.Size(102, 91);
             this.btnVerslag.TabIndex = 1;
@@ -47,7 +47,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(18, 10);
+            this.label1.Location = new System.Drawing.Point(4, 7);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(88, 25);
             this.label1.TabIndex = 3;
@@ -55,7 +55,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(23, 47);
+            this.button2.Location = new System.Drawing.Point(9, 35);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(102, 91);
             this.button2.TabIndex = 5;

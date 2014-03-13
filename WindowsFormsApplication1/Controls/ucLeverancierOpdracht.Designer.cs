@@ -79,7 +79,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 133F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 67F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 133F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 303F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 304F));
             this.tableLayoutPanel1.Controls.Add(this.txtTotUur, 4, 1);
             this.tableLayoutPanel1.Controls.Add(this.txtVanUur, 4, 0);
             this.tableLayoutPanel1.Controls.Add(this.dtVan, 3, 0);
@@ -147,7 +147,7 @@
             this.txtVetrekPlaats.Location = new System.Drawing.Point(557, 5);
             this.txtVetrekPlaats.Margin = new System.Windows.Forms.Padding(4);
             this.txtVetrekPlaats.Name = "txtVetrekPlaats";
-            this.txtVetrekPlaats.Size = new System.Drawing.Size(295, 22);
+            this.txtVetrekPlaats.Size = new System.Drawing.Size(296, 22);
             this.txtVetrekPlaats.TabIndex = 7;
             // 
             // txtOmschrijving
@@ -178,7 +178,7 @@
             this.txtTerugPlaats.Location = new System.Drawing.Point(557, 39);
             this.txtTerugPlaats.Margin = new System.Windows.Forms.Padding(4);
             this.txtTerugPlaats.Name = "txtTerugPlaats";
-            this.txtTerugPlaats.Size = new System.Drawing.Size(295, 22);
+            this.txtTerugPlaats.Size = new System.Drawing.Size(296, 22);
             this.txtTerugPlaats.TabIndex = 11;
             // 
             // txtPlaatsen

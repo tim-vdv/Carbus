@@ -94,7 +94,7 @@
             this.txtPrijs.Location = new System.Drawing.Point(737, 5);
             this.txtPrijs.Margin = new System.Windows.Forms.Padding(4);
             this.txtPrijs.Name = "txtPrijs";
-            this.txtPrijs.Size = new System.Drawing.Size(96, 22);
+            this.txtPrijs.Size = new System.Drawing.Size(97, 22);
             this.txtPrijs.TabIndex = 8;
             // 
             // btnSelecteer
@@ -124,7 +124,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 133F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 73F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 73F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 104F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 105F));
             this.tableLayoutPanel1.Controls.Add(this.txtPlaatsen, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.txtVertrekPlaats, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.txtOmschrijving, 1, 0);

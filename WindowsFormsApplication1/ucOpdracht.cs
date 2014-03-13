@@ -27,7 +27,6 @@ namespace CarBus
         //ControlCollection kosten;
         //ControlCollection lonen;
         //double btw, vraagprijs, kostprijs;
-        //Testgit
         
         public opdracht opdracht
         {
@@ -129,6 +128,21 @@ namespace CarBus
         }
         
         public void FillData(opdracht opdracht) {
+
+            foreach (locatie via in OpdrachtManagement.getVia(opdracht.opdracht_id))
+            {
+                ComboBox cbbVia = new ComboBox();
+                cbbVia.DataSource = LocatieManagement.getLocaties();
+                cbbVia.DisplayMember = "FullAdress";
+                cbbVia.ValueMember = "locatie_id";
+                cbbVia.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+                cbbVia.AutoCompleteSource = AutoCompleteSource.ListItems;
+                cbbVia.Width = 201;
+                cbbVia.Height = 51;
+                flpVia.Controls.Add(cbbVia);
+                cbbVia.Text = via.FullAdress;
+            }
+
             emptyFields();
             this.cbbID.SelectedIndexChanged -= new System.EventHandler(this.cbbID_SelectedIndexChanged);
             //Kijken of gefactureerd is of niet
@@ -201,19 +215,7 @@ namespace CarBus
             //}
 
             
-            foreach (locatie via in OpdrachtManagement.getVia(opdracht.opdracht_id))
-            {
-                ComboBox cbbVia = new ComboBox();
-                cbbVia.DataSource = LocatieManagement.getLocaties();
-                cbbVia.DisplayMember = "FullAdress";
-                cbbVia.ValueMember = "locatie_id";
-                cbbVia.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
-                cbbVia.AutoCompleteSource = AutoCompleteSource.ListItems;
-                cbbVia.Width = 201;
-                cbbVia.Height = 51;
-                flpVia.Controls.Add(cbbVia);
-                cbbVia.Text = via.FullAdress;
-            }
+
             
        
             foreach (opdracht_chauffeur cha in OpdrachtManagement.getChauffeursVanOpdract(opdracht))
@@ -506,11 +508,11 @@ namespace CarBus
                 opdrachtPopup.AutoSize = true;
                 if (opdrachtPopup.ShowDialog() == DialogResult.OK)
                 {
-                    cbbLeverancier.DataSource = LeverancierManagement.getLeveranciers();
+                    //cbbLeverancier.DataSource = LeverancierManagement.getLeveranciers();
 
                     opdrachtPopup.Dispose();
                 }
-                cbbLeverancier.DataSource = LeverancierManagement.getLeveranciers();
+                //cbbLeverancier.DataSource = LeverancierManagement.getLeveranciers();
             }
 
             //Form opdrachtPopup = new Form();

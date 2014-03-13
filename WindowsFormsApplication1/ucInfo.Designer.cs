@@ -988,7 +988,7 @@
             this.flowLayoutPanel1.Controls.Add(this.groupBox1);
             this.flowLayoutPanel1.Controls.Add(this.panel1);
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(4, 40);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(8, 35);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(498, 232);
@@ -1010,7 +1010,7 @@
             // 
             this.lblOpdracht.AutoSize = true;
             this.lblOpdracht.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOpdracht.Location = new System.Drawing.Point(4, 12);
+            this.lblOpdracht.Location = new System.Drawing.Point(4, 7);
             this.lblOpdracht.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblOpdracht.Name = "lblOpdracht";
             this.lblOpdracht.Size = new System.Drawing.Size(120, 24);

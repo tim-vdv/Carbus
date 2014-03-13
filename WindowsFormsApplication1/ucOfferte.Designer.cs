@@ -169,7 +169,7 @@
             this.gbOfferte.Controls.Add(this.cbbKlant);
             this.gbOfferte.Controls.Add(this.label2);
             this.gbOfferte.Controls.Add(this.cbbID);
-            this.gbOfferte.Location = new System.Drawing.Point(43, 44);
+            this.gbOfferte.Location = new System.Drawing.Point(43, 35);
             this.gbOfferte.Margin = new System.Windows.Forms.Padding(4);
             this.gbOfferte.Name = "gbOfferte";
             this.gbOfferte.Padding = new System.Windows.Forms.Padding(4);
@@ -651,7 +651,7 @@
             // 
             this.groupBox2.AutoSize = true;
             this.groupBox2.Controls.Add(this.flpPrijsberekening);
-            this.groupBox2.Location = new System.Drawing.Point(543, 44);
+            this.groupBox2.Location = new System.Drawing.Point(543, 35);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
@@ -1205,7 +1205,7 @@
             // 
             this.lblOfferte.AutoSize = true;
             this.lblOfferte.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOfferte.Location = new System.Drawing.Point(4, 6);
+            this.lblOfferte.Location = new System.Drawing.Point(4, 7);
             this.lblOfferte.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblOfferte.Name = "lblOfferte";
             this.lblOfferte.Size = new System.Drawing.Size(148, 24);

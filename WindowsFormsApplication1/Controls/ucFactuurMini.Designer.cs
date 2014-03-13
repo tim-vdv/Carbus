@@ -52,7 +52,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 133F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 233F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 133F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 172F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 173F));
             this.tableLayoutPanel1.Controls.Add(this.dtFactuur, 5, 0);
             this.tableLayoutPanel1.Controls.Add(this.dtOpdracht, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.txtKlant, 2, 0);
@@ -136,7 +136,7 @@
             this.txtBetaling.Location = new System.Drawing.Point(817, 5);
             this.txtBetaling.Margin = new System.Windows.Forms.Padding(4);
             this.txtBetaling.Name = "txtBetaling";
-            this.txtBetaling.Size = new System.Drawing.Size(164, 22);
+            this.txtBetaling.Size = new System.Drawing.Size(165, 22);
             this.txtBetaling.TabIndex = 7;
             // 
             // btnSelecteer

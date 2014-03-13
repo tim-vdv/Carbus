@@ -63,20 +63,27 @@ namespace CarBus.Statistiek
 
         private void btnOphalen_Click(object sender, EventArgs e)
         {
-            flpOpdrachten.Controls.Clear();
-
+            dataGridView1.AutoGenerateColumns = false;
+            int countOpdracht = 0;
             klant klant = (klant)cbbKlant.SelectedItem;
+            dataGridView1.DataSource = KlantManagement.getOpdrachtenVanKlant(klant);
 
             foreach (opdracht opdracht in KlantManagement.getOpdrachtenVanKlant(klant))
             {
-                ucOpdrachtMini uco = new ucOpdrachtMini();
-                uco.opdracht = opdracht;
-                uco.OnButtonclick += new EventHandler(uco_OnButtonclick);
+                    dataGridView1.Rows[countOpdracht].Cells["ID"].Value = opdracht.opdracht_id.ToString();
+                    dataGridView1.Rows[countOpdracht].Cells["Omschrijving"].Value = opdracht.ritomschrijving;
+                    dataGridView1.Rows[countOpdracht].Cells["PL"].Value = opdracht.aantal_personen.ToString();
+                    locatie vertrek = OpdrachtManagement.getVertrek(opdracht.opdracht_id);
+                    if (vertrek != null)
+                        dataGridView1.Rows[countOpdracht].Cells["Vertrekplaats"].Value = vertrek.FullAdress;
+                    dataGridView1.Rows[countOpdracht].Cells["Vertrekdatum"].Value = opdracht.vanaf_datum.ToString("dd-MM-yyyy");
+                    dataGridView1.Rows[countOpdracht].Cells["VanUur"].Value = opdracht.vanaf_uur;
+                    dataGridView1.Rows[countOpdracht].Cells["TotUur"].Value = opdracht.tot_uur;
+                    dataGridView1.Rows[countOpdracht].Cells["Prijs"].Value = opdracht.offerte_totaal.ToString();
 
-                flpOpdrachten.Controls.Add(uco);
+                    countOpdracht++;
             }
         }
-
         //Wat gebeurt er als er op de knop naar een opdracht geklikt wordt
         void uco_OnButtonclick(object sender, EventArgs e)
         {
@@ -113,6 +120,44 @@ namespace CarBus.Statistiek
             Bitmap bmp = new Bitmap(this.flowLayoutPanel1.Width, this.flowLayoutPanel1.Height);
             this.flowLayoutPanel1.DrawToBitmap(bmp, new Rectangle(0, 0, this.flowLayoutPanel1.Width, this.flowLayoutPanel1.Height));
             e.Graphics.DrawImage((Image)bmp, x, y);
+        }
+
+        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            var rowindex = dataGridView1.CurrentCell.RowIndex;
+            var value = dataGridView1.Rows[rowindex].Cells["ID"].Value;
+            int valueInt = Convert.ToInt16(value);
+            opdracht opdracht = OpdrachtManagement.getOpdracht(valueInt);
+
+            this.Controls.Clear();
+
+            ucOfferte uf = new ucOfferte();
+            uf.fillData(opdracht);
+            this.Controls.Add(uf);
+        }
+
+        private void cbbKlant_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            dataGridView1.AutoGenerateColumns = false;
+            int countOpdracht = 0;
+            klant klant = (klant)cbbKlant.SelectedItem;
+            dataGridView1.DataSource = KlantManagement.getOpdrachtenVanKlant(klant);
+
+            foreach (opdracht opdracht in KlantManagement.getOpdrachtenVanKlant(klant))
+            {
+                dataGridView1.Rows[countOpdracht].Cells["ID"].Value = opdracht.opdracht_id.ToString();
+                dataGridView1.Rows[countOpdracht].Cells["Omschrijving"].Value = opdracht.ritomschrijving;
+                dataGridView1.Rows[countOpdracht].Cells["PL"].Value = opdracht.aantal_personen.ToString();
+                locatie vertrek = OpdrachtManagement.getVertrek(opdracht.opdracht_id);
+                if (vertrek != null)
+                    dataGridView1.Rows[countOpdracht].Cells["Vertrekplaats"].Value = vertrek.FullAdress;
+                dataGridView1.Rows[countOpdracht].Cells["Vertrekdatum"].Value = opdracht.vanaf_datum.ToString("dd-MM-yyyy");
+                dataGridView1.Rows[countOpdracht].Cells["VanUur"].Value = opdracht.vanaf_uur;
+                dataGridView1.Rows[countOpdracht].Cells["TotUur"].Value = opdracht.tot_uur;
+                dataGridView1.Rows[countOpdracht].Cells["Prijs"].Value = opdracht.offerte_totaal.ToString();
+
+                countOpdracht++;
+            }
         }
     }
 }

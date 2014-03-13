@@ -80,8 +80,8 @@
             this.btnAnnuleren.Enabled = false;
             this.btnAnnuleren.FlatAppearance.BorderSize = 0;
             this.btnAnnuleren.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAnnuleren.Location = new System.Drawing.Point(41, 185);
-            this.btnAnnuleren.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAnnuleren.Location = new System.Drawing.Point(38, 181);
+            this.btnAnnuleren.Margin = new System.Windows.Forms.Padding(4);
             this.btnAnnuleren.Name = "btnAnnuleren";
             this.btnAnnuleren.Size = new System.Drawing.Size(29, 27);
             this.btnAnnuleren.TabIndex = 6;
@@ -96,8 +96,8 @@
             this.btnOpslaan.Enabled = false;
             this.btnOpslaan.FlatAppearance.BorderSize = 0;
             this.btnOpslaan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOpslaan.Location = new System.Drawing.Point(4, 185);
-            this.btnOpslaan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnOpslaan.Location = new System.Drawing.Point(4, 181);
+            this.btnOpslaan.Margin = new System.Windows.Forms.Padding(4);
             this.btnOpslaan.Name = "btnOpslaan";
             this.btnOpslaan.Size = new System.Drawing.Size(29, 27);
             this.btnOpslaan.TabIndex = 5;
@@ -111,8 +111,8 @@
             this.btnPrint.Enabled = false;
             this.btnPrint.FlatAppearance.BorderSize = 0;
             this.btnPrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPrint.Location = new System.Drawing.Point(75, 184);
-            this.btnPrint.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPrint.Location = new System.Drawing.Point(75, 180);
+            this.btnPrint.Margin = new System.Windows.Forms.Padding(4);
             this.btnPrint.Name = "btnPrint";
             this.btnPrint.Size = new System.Drawing.Size(31, 28);
             this.btnPrint.TabIndex = 7;
@@ -132,10 +132,10 @@
             this.grbInfo.Controls.Add(this.cbbChauffeur);
             this.grbInfo.Controls.Add(this.label5);
             this.grbInfo.Controls.Add(this.label17);
-            this.grbInfo.Location = new System.Drawing.Point(471, 40);
-            this.grbInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grbInfo.Location = new System.Drawing.Point(471, 35);
+            this.grbInfo.Margin = new System.Windows.Forms.Padding(4);
             this.grbInfo.Name = "grbInfo";
-            this.grbInfo.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grbInfo.Padding = new System.Windows.Forms.Padding(4);
             this.grbInfo.Size = new System.Drawing.Size(469, 196);
             this.grbInfo.TabIndex = 3;
             this.grbInfo.TabStop = false;
@@ -175,7 +175,7 @@
             // 
             this.txtAantalpersonen.Enabled = false;
             this.txtAantalpersonen.Location = new System.Drawing.Point(132, 148);
-            this.txtAantalpersonen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtAantalpersonen.Margin = new System.Windows.Forms.Padding(4);
             this.txtAantalpersonen.Name = "txtAantalpersonen";
             this.txtAantalpersonen.Size = new System.Drawing.Size(104, 22);
             this.txtAantalpersonen.TabIndex = 5;
@@ -184,7 +184,7 @@
             // 
             this.txtBeladenkm.Enabled = false;
             this.txtBeladenkm.Location = new System.Drawing.Point(132, 116);
-            this.txtBeladenkm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBeladenkm.Margin = new System.Windows.Forms.Padding(4);
             this.txtBeladenkm.Name = "txtBeladenkm";
             this.txtBeladenkm.Size = new System.Drawing.Size(104, 22);
             this.txtBeladenkm.TabIndex = 4;
@@ -193,7 +193,7 @@
             // 
             this.txtLedigekm.Enabled = false;
             this.txtLedigekm.Location = new System.Drawing.Point(132, 84);
-            this.txtLedigekm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLedigekm.Margin = new System.Windows.Forms.Padding(4);
             this.txtLedigekm.Name = "txtLedigekm";
             this.txtLedigekm.Size = new System.Drawing.Size(104, 22);
             this.txtLedigekm.TabIndex = 3;
@@ -203,7 +203,7 @@
             this.cbbVoertuig.Enabled = false;
             this.cbbVoertuig.FormattingEnabled = true;
             this.cbbVoertuig.Location = new System.Drawing.Point(132, 50);
-            this.cbbVoertuig.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbVoertuig.Margin = new System.Windows.Forms.Padding(4);
             this.cbbVoertuig.Name = "cbbVoertuig";
             this.cbbVoertuig.Size = new System.Drawing.Size(299, 24);
             this.cbbVoertuig.TabIndex = 2;
@@ -213,7 +213,7 @@
             this.cbbChauffeur.Enabled = false;
             this.cbbChauffeur.FormattingEnabled = true;
             this.cbbChauffeur.Location = new System.Drawing.Point(132, 17);
-            this.cbbChauffeur.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbChauffeur.Margin = new System.Windows.Forms.Padding(4);
             this.cbbChauffeur.Name = "cbbChauffeur";
             this.cbbChauffeur.Size = new System.Drawing.Size(299, 24);
             this.cbbChauffeur.TabIndex = 1;
@@ -247,10 +247,10 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.cbbKlant);
             this.groupBox1.Controls.Add(this.cbbID);
-            this.groupBox1.Location = new System.Drawing.Point(4, 40);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(4, 35);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(459, 138);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
@@ -263,7 +263,7 @@
             this.btnZoeken.FlatAppearance.BorderSize = 0;
             this.btnZoeken.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnZoeken.Location = new System.Drawing.Point(87, 23);
-            this.btnZoeken.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnZoeken.Margin = new System.Windows.Forms.Padding(4);
             this.btnZoeken.Name = "btnZoeken";
             this.btnZoeken.Size = new System.Drawing.Size(31, 26);
             this.btnZoeken.TabIndex = 2;
@@ -274,7 +274,7 @@
             // 
             this.txtPrijs.Enabled = false;
             this.txtPrijs.Location = new System.Drawing.Point(125, 90);
-            this.txtPrijs.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPrijs.Margin = new System.Windows.Forms.Padding(4);
             this.txtPrijs.Name = "txtPrijs";
             this.txtPrijs.Size = new System.Drawing.Size(319, 22);
             this.txtPrijs.TabIndex = 3;
@@ -304,7 +304,7 @@
             this.cbbKlant.Enabled = false;
             this.cbbKlant.FormattingEnabled = true;
             this.cbbKlant.Location = new System.Drawing.Point(125, 57);
-            this.cbbKlant.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbKlant.Margin = new System.Windows.Forms.Padding(4);
             this.cbbKlant.Name = "cbbKlant";
             this.cbbKlant.Size = new System.Drawing.Size(319, 24);
             this.cbbKlant.TabIndex = 2;
@@ -313,7 +313,7 @@
             // 
             this.cbbID.FormattingEnabled = true;
             this.cbbID.Location = new System.Drawing.Point(125, 23);
-            this.cbbID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbID.Margin = new System.Windows.Forms.Padding(4);
             this.cbbID.Name = "cbbID";
             this.cbbID.Size = new System.Drawing.Size(319, 24);
             this.cbbID.TabIndex = 1;
@@ -332,10 +332,10 @@
             this.groupBox2.Controls.Add(this.cbbChauffeur2);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Location = new System.Drawing.Point(471, 275);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Location = new System.Drawing.Point(471, 270);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(469, 196);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
@@ -375,7 +375,7 @@
             // 
             this.txtAantalpersonen2.Enabled = false;
             this.txtAantalpersonen2.Location = new System.Drawing.Point(132, 148);
-            this.txtAantalpersonen2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtAantalpersonen2.Margin = new System.Windows.Forms.Padding(4);
             this.txtAantalpersonen2.Name = "txtAantalpersonen2";
             this.txtAantalpersonen2.Size = new System.Drawing.Size(104, 22);
             this.txtAantalpersonen2.TabIndex = 5;
@@ -384,7 +384,7 @@
             // 
             this.txtBeladenkm2.Enabled = false;
             this.txtBeladenkm2.Location = new System.Drawing.Point(132, 116);
-            this.txtBeladenkm2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBeladenkm2.Margin = new System.Windows.Forms.Padding(4);
             this.txtBeladenkm2.Name = "txtBeladenkm2";
             this.txtBeladenkm2.Size = new System.Drawing.Size(104, 22);
             this.txtBeladenkm2.TabIndex = 4;
@@ -393,7 +393,7 @@
             // 
             this.txtLedigekm2.Enabled = false;
             this.txtLedigekm2.Location = new System.Drawing.Point(132, 84);
-            this.txtLedigekm2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLedigekm2.Margin = new System.Windows.Forms.Padding(4);
             this.txtLedigekm2.Name = "txtLedigekm2";
             this.txtLedigekm2.Size = new System.Drawing.Size(104, 22);
             this.txtLedigekm2.TabIndex = 3;
@@ -403,7 +403,7 @@
             this.cbbVoertuig2.Enabled = false;
             this.cbbVoertuig2.FormattingEnabled = true;
             this.cbbVoertuig2.Location = new System.Drawing.Point(132, 50);
-            this.cbbVoertuig2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbVoertuig2.Margin = new System.Windows.Forms.Padding(4);
             this.cbbVoertuig2.Name = "cbbVoertuig2";
             this.cbbVoertuig2.Size = new System.Drawing.Size(299, 24);
             this.cbbVoertuig2.TabIndex = 2;
@@ -413,7 +413,7 @@
             this.cbbChauffeur2.Enabled = false;
             this.cbbChauffeur2.FormattingEnabled = true;
             this.cbbChauffeur2.Location = new System.Drawing.Point(132, 17);
-            this.cbbChauffeur2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbChauffeur2.Margin = new System.Windows.Forms.Padding(4);
             this.cbbChauffeur2.Name = "cbbChauffeur2";
             this.cbbChauffeur2.Size = new System.Drawing.Size(299, 24);
             this.cbbChauffeur2.TabIndex = 1;
@@ -441,7 +441,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(546, 21);
+            this.label12.Location = new System.Drawing.Point(546, 16);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(53, 17);
@@ -452,8 +452,8 @@
             // 
             this.cbbDatum.Enabled = false;
             this.cbbDatum.FormattingEnabled = true;
-            this.cbbDatum.Location = new System.Drawing.Point(603, 18);
-            this.cbbDatum.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbDatum.Location = new System.Drawing.Point(603, 13);
+            this.cbbDatum.Margin = new System.Windows.Forms.Padding(4);
             this.cbbDatum.Name = "cbbDatum";
             this.cbbDatum.Size = new System.Drawing.Size(299, 24);
             this.cbbDatum.TabIndex = 2;
@@ -462,7 +462,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(483, 247);
+            this.label13.Location = new System.Drawing.Point(483, 244);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(114, 17);
@@ -472,8 +472,8 @@
             // txtKmTussen
             // 
             this.txtKmTussen.Enabled = false;
-            this.txtKmTussen.Location = new System.Drawing.Point(603, 243);
-            this.txtKmTussen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtKmTussen.Location = new System.Drawing.Point(603, 240);
+            this.txtKmTussen.Margin = new System.Windows.Forms.Padding(4);
             this.txtKmTussen.Name = "txtKmTussen";
             this.txtKmTussen.Size = new System.Drawing.Size(299, 22);
             this.txtKmTussen.TabIndex = 4;
@@ -482,7 +482,7 @@
             // 
             this.lblOpdracht.AutoSize = true;
             this.lblOpdracht.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOpdracht.Location = new System.Drawing.Point(4, 12);
+            this.lblOpdracht.Location = new System.Drawing.Point(4, 7);
             this.lblOpdracht.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblOpdracht.Name = "lblOpdracht";
             this.lblOpdracht.Size = new System.Drawing.Size(120, 24);
@@ -515,7 +515,7 @@
             this.Controls.Add(this.btnPrint);
             this.Controls.Add(this.grbInfo);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ucInfoContract";
             this.Size = new System.Drawing.Size(1053, 528);
             this.grbInfo.ResumeLayout(false);

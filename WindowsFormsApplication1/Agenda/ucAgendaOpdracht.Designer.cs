@@ -57,7 +57,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 380F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 386F));
             this.tableLayoutPanel1.Controls.Add(this.txtAankomst, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.cbbVoertuig, 4, 0);
             this.tableLayoutPanel1.Controls.Add(this.cbbChauffeur, 3, 0);
@@ -84,20 +84,20 @@
             // txtAankomst
             // 
             this.txtAankomst.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtAankomst.Location = new System.Drawing.Point(169, 5);
+            this.txtAankomst.Location = new System.Drawing.Point(167, 5);
             this.txtAankomst.Margin = new System.Windows.Forms.Padding(4);
             this.txtAankomst.Name = "txtAankomst";
-            this.txtAankomst.Size = new System.Drawing.Size(73, 22);
+            this.txtAankomst.Size = new System.Drawing.Size(72, 22);
             this.txtAankomst.TabIndex = 111;
             // 
             // cbbVoertuig
             // 
             this.cbbVoertuig.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cbbVoertuig.FormattingEnabled = true;
-            this.cbbVoertuig.Location = new System.Drawing.Point(333, 5);
+            this.cbbVoertuig.Location = new System.Drawing.Point(329, 5);
             this.cbbVoertuig.Margin = new System.Windows.Forms.Padding(4);
             this.cbbVoertuig.Name = "cbbVoertuig";
-            this.cbbVoertuig.Size = new System.Drawing.Size(73, 24);
+            this.cbbVoertuig.Size = new System.Drawing.Size(72, 24);
             this.cbbVoertuig.TabIndex = 104;
             // 
             // cbbChauffeur
@@ -105,34 +105,34 @@
             this.cbbChauffeur.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cbbChauffeur.Enabled = false;
             this.cbbChauffeur.FormattingEnabled = true;
-            this.cbbChauffeur.Location = new System.Drawing.Point(251, 5);
+            this.cbbChauffeur.Location = new System.Drawing.Point(248, 5);
             this.cbbChauffeur.Margin = new System.Windows.Forms.Padding(4);
             this.cbbChauffeur.Name = "cbbChauffeur";
-            this.cbbChauffeur.Size = new System.Drawing.Size(73, 24);
+            this.cbbChauffeur.Size = new System.Drawing.Size(72, 24);
             this.cbbChauffeur.TabIndex = 103;
             // 
             // cbbBusId
             // 
             this.cbbBusId.Enabled = false;
             this.cbbBusId.FormattingEnabled = true;
-            this.cbbBusId.Location = new System.Drawing.Point(415, 5);
+            this.cbbBusId.Location = new System.Drawing.Point(410, 5);
             this.cbbBusId.Margin = new System.Windows.Forms.Padding(4);
             this.cbbBusId.Name = "cbbBusId";
-            this.cbbBusId.Size = new System.Drawing.Size(73, 24);
+            this.cbbBusId.Size = new System.Drawing.Size(72, 24);
             this.cbbBusId.TabIndex = 105;
             // 
             // txtAankomst2
             // 
             this.txtAankomst2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtAankomst2.Location = new System.Drawing.Point(169, 44);
+            this.txtAankomst2.Location = new System.Drawing.Point(167, 44);
             this.txtAankomst2.Margin = new System.Windows.Forms.Padding(4);
             this.txtAankomst2.Name = "txtAankomst2";
-            this.txtAankomst2.Size = new System.Drawing.Size(73, 22);
+            this.txtAankomst2.Size = new System.Drawing.Size(72, 22);
             this.txtAankomst2.TabIndex = 107;
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(497, 5);
+            this.btnUpdate.Location = new System.Drawing.Point(491, 5);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(4);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(171, 28);
@@ -144,25 +144,25 @@
             // txtVertrek2
             // 
             this.txtVertrek2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtVertrek2.Location = new System.Drawing.Point(87, 44);
+            this.txtVertrek2.Location = new System.Drawing.Point(86, 44);
             this.txtVertrek2.Margin = new System.Windows.Forms.Padding(4);
             this.txtVertrek2.Name = "txtVertrek2";
-            this.txtVertrek2.Size = new System.Drawing.Size(73, 22);
+            this.txtVertrek2.Size = new System.Drawing.Size(72, 22);
             this.txtVertrek2.TabIndex = 112;
             // 
             // cbbSecChauff
             // 
             this.cbbSecChauff.FormattingEnabled = true;
-            this.cbbSecChauff.Location = new System.Drawing.Point(251, 44);
+            this.cbbSecChauff.Location = new System.Drawing.Point(248, 44);
             this.cbbSecChauff.Margin = new System.Windows.Forms.Padding(4);
             this.cbbSecChauff.Name = "cbbSecChauff";
-            this.cbbSecChauff.Size = new System.Drawing.Size(73, 24);
+            this.cbbSecChauff.Size = new System.Drawing.Size(72, 24);
             this.cbbSecChauff.TabIndex = 113;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(333, 40);
+            this.label1.Location = new System.Drawing.Point(329, 40);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 17);
@@ -171,10 +171,10 @@
             // txtVertrek
             // 
             this.txtVertrek.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtVertrek.Location = new System.Drawing.Point(87, 5);
+            this.txtVertrek.Location = new System.Drawing.Point(86, 5);
             this.txtVertrek.Margin = new System.Windows.Forms.Padding(4);
             this.txtVertrek.Name = "txtVertrek";
-            this.txtVertrek.Size = new System.Drawing.Size(73, 22);
+            this.txtVertrek.Size = new System.Drawing.Size(72, 22);
             this.txtVertrek.TabIndex = 102;
             // 
             // txtKlantNaam
@@ -183,13 +183,13 @@
             this.txtKlantNaam.Location = new System.Drawing.Point(5, 5);
             this.txtKlantNaam.Margin = new System.Windows.Forms.Padding(4);
             this.txtKlantNaam.Name = "txtKlantNaam";
-            this.txtKlantNaam.Size = new System.Drawing.Size(73, 22);
+            this.txtKlantNaam.Size = new System.Drawing.Size(72, 22);
             this.txtKlantNaam.TabIndex = 110;
             // 
             // lblOpdrId
             // 
             this.lblOpdrId.AutoSize = true;
-            this.lblOpdrId.Location = new System.Drawing.Point(497, 40);
+            this.lblOpdrId.Location = new System.Drawing.Point(491, 40);
             this.lblOpdrId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblOpdrId.Name = "lblOpdrId";
             this.lblOpdrId.Size = new System.Drawing.Size(0, 17);
@@ -198,7 +198,7 @@
             // lblIdInfo
             // 
             this.lblIdInfo.AutoSize = true;
-            this.lblIdInfo.Location = new System.Drawing.Point(415, 40);
+            this.lblIdInfo.Location = new System.Drawing.Point(410, 40);
             this.lblIdInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIdInfo.Name = "lblIdInfo";
             this.lblIdInfo.Size = new System.Drawing.Size(0, 17);

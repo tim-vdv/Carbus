@@ -64,19 +64,25 @@ namespace CarBus.Statistiek
         private void btnOphalen_Click(object sender, EventArgs e)
         {
             flpOpdrachten.Controls.Clear();
-
+            dataGridView1.AutoGenerateColumns = false;
+            int countOpdracht = 0;
             Decimal totaal = 0;
             leverancier leverancier = (leverancier)cbbLeverancier.SelectedItem;
+            dataGridView1.DataSource = LeverancierManagement.getOpdrachtenVanLeverancier(leverancier);
 
             foreach (opdracht opdracht in LeverancierManagement.getOpdrachtenVanLeverancier(leverancier))
             {
-                ucOpdrachtPrijs uco = new ucOpdrachtPrijs();
-                uco.opdracht = opdracht;
-                uco.OnButtonclick += new EventHandler(uco_OnButtonclick);
-
                 totaal = totaal + Convert.ToDecimal(opdracht.offerte_totaal);
 
-                flpOpdrachten.Controls.Add(uco);
+                dataGridView1.Rows[countOpdracht].Cells["ID"].Value = opdracht.opdracht_id.ToString();
+                dataGridView1.Rows[countOpdracht].Cells["Datum"].Value = opdracht.vanaf_datum.ToString("dd-MM-yyyy");
+                dataGridView1.Rows[countOpdracht].Cells["Vertrek"].Value = OpdrachtManagement.getVertrek(opdracht.opdracht_id).FullAdress;
+                dataGridView1.Rows[countOpdracht].Cells["Bestemming"].Value = OpdrachtManagement.getBestemming(opdracht.opdracht_id).FullAdress;
+                dataGridView1.Rows[countOpdracht].Cells["PL"].Value = opdracht.aantal_personen.ToString();
+                dataGridView1.Rows[countOpdracht].Cells["Prijs"].Value = opdracht.offerte_totaal.ToString();
+
+                countOpdracht++;
+
             }
 
             txtTotaal.Text = totaal.ToString();
@@ -121,5 +127,33 @@ namespace CarBus.Statistiek
             e.Graphics.DrawImage((Image)bmp, x, y);
         }
         #endregion
+
+        private void cbbLeverancier_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            flpOpdrachten.Controls.Clear();
+            dataGridView1.AutoGenerateColumns = false;
+            int countOpdracht = 0;
+            Decimal totaal = 0;
+            leverancier leverancier = (leverancier)cbbLeverancier.SelectedItem;
+            dataGridView1.DataSource = LeverancierManagement.getOpdrachtenVanLeverancier(leverancier);
+
+            foreach (opdracht opdracht in LeverancierManagement.getOpdrachtenVanLeverancier(leverancier))
+            {
+  
+                totaal = totaal + Convert.ToDecimal(opdracht.offerte_totaal);
+
+                dataGridView1.Rows[countOpdracht].Cells["ID"].Value = opdracht.opdracht_id.ToString();
+                dataGridView1.Rows[countOpdracht].Cells["Datum"].Value = opdracht.vanaf_datum.ToString("dd-MM-yyyy");
+                dataGridView1.Rows[countOpdracht].Cells["Vertrek"].Value = OpdrachtManagement.getVertrek(opdracht.opdracht_id).FullAdress;
+                dataGridView1.Rows[countOpdracht].Cells["Bestemming"].Value = OpdrachtManagement.getBestemming(opdracht.opdracht_id).FullAdress;
+                dataGridView1.Rows[countOpdracht].Cells["PL"].Value = opdracht.aantal_personen.ToString();
+                dataGridView1.Rows[countOpdracht].Cells["Prijs"].Value = opdracht.offerte_totaal.ToString();
+
+                countOpdracht++;
+
+            }
+
+            txtTotaal.Text = totaal.ToString();
+        }
     }
 }

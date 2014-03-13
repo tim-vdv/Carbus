@@ -65,28 +65,26 @@ namespace CarBus.Statistiek
         private void btnOphalen_Click(object sender, EventArgs e)
         {
             flpOpdrachten.Controls.Clear();
-
+            dataGridView1.AutoGenerateColumns = false;
+            int countOpdracht = 0;
             chauffeur chauffeur = (chauffeur)cbbChauffeur.SelectedItem;
+            dataGridView1.DataSource = ChauffeurManagement.getOngeredenOpdrachtanVanChauffeur(chauffeur);
 
             //dataGridView1.DataSource = ChauffeurManagement.getOngeredenOpdrachtanVanChauffeurPrint(chauffeur);
 
             foreach (opdracht opdracht in ChauffeurManagement.getOngeredenOpdrachtanVanChauffeur(chauffeur))
             {
-                ucChauffeurRit uco = new ucChauffeurRit();
-                uco.opdracht = opdracht;
-                uco.OnButtonclick += new EventHandler(uco_OnButtonclick);
+                dataGridView1.Rows[countOpdracht].Cells["ID"].Value = opdracht.opdracht_id.ToString();
+                dataGridView1.Rows[countOpdracht].Cells["Voertuig"].Value = "";
+                dataGridView1.Rows[countOpdracht].Cells["Klant"].Value = opdracht.klant.naam;
+                locatie vertrek = OpdrachtManagement.getVertrek(opdracht.opdracht_id);
+                if (vertrek != null)
+                    dataGridView1.Rows[countOpdracht].Cells["Datum"].Value = opdracht.vanaf_datum.ToString("dd-MM-yyyy");
+                dataGridView1.Rows[countOpdracht].Cells["Uur"].Value = opdracht.vanaf_uur;
+                dataGridView1.Rows[countOpdracht].Cells["Omschrijving"].Value = opdracht.ritomschrijving;
+                dataGridView1.Rows[countOpdracht].Cells["Plaats"].Value = (OpdrachtManagement.getVertrek(opdracht.opdracht_id) == null) ? "" : OpdrachtManagement.getVertrek(opdracht.opdracht_id).FullAdress;
 
-                //if (opdracht.contract == false)
-                //{
-                //    uco.achtergrond =  Color.CornflowerBlue;
-                //}
-                //else if (opdracht.contract == true)
-                //{
-                //    uco.achtergrond = Color.ForestGreen;
-                //}
-               
-
-                flpOpdrachten.Controls.Add(uco);
+                countOpdracht++;
             }
 
             //dataGridView1.Columns.Clear();
@@ -133,16 +131,24 @@ namespace CarBus.Statistiek
         private void cbbChauffeur_SelectedIndexChanged(object sender, EventArgs e)
         {
             flpOpdrachten.Controls.Clear();
-
+            dataGridView1.AutoGenerateColumns = false;
+            int countOpdracht = 0;
             chauffeur chauffeur = (chauffeur)cbbChauffeur.SelectedItem;
+            dataGridView1.DataSource = ChauffeurManagement.getOngeredenOpdrachtanVanChauffeur(chauffeur);
 
             foreach (opdracht opdracht in ChauffeurManagement.getOngeredenOpdrachtanVanChauffeur(chauffeur))
             {
-                ucChauffeurRit uco = new ucChauffeurRit();
-                uco.opdracht = opdracht;
-                uco.OnButtonclick += new EventHandler(uco_OnButtonclick);
+                dataGridView1.Rows[countOpdracht].Cells["ID"].Value = opdracht.opdracht_id.ToString();
+                dataGridView1.Rows[countOpdracht].Cells["Voertuig"].Value = "";
+                dataGridView1.Rows[countOpdracht].Cells["Klant"].Value = opdracht.klant.naam;
+                locatie vertrek = OpdrachtManagement.getVertrek(opdracht.opdracht_id);
+                if (vertrek != null)
+                    dataGridView1.Rows[countOpdracht].Cells["Datum"].Value = opdracht.vanaf_datum.ToString("dd-MM-yyyy");
+                dataGridView1.Rows[countOpdracht].Cells["Uur"].Value = opdracht.vanaf_uur;
+                dataGridView1.Rows[countOpdracht].Cells["Omschrijving"].Value = opdracht.ritomschrijving;
+                dataGridView1.Rows[countOpdracht].Cells["Plaats"].Value = (OpdrachtManagement.getVertrek(opdracht.opdracht_id) == null) ? "" : OpdrachtManagement.getVertrek(opdracht.opdracht_id).FullAdress;
 
-                flpOpdrachten.Controls.Add(uco);
+                countOpdracht++;
             }
         }
 
@@ -171,5 +177,19 @@ namespace CarBus.Statistiek
             e.Graphics.DrawImage((Image)bmp, x, y);
         }
         #endregion 
+
+        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            var rowindex = dataGridView1.CurrentCell.RowIndex;
+            var value = dataGridView1.Rows[rowindex].Cells["ID"].Value;
+            int valueInt = Convert.ToInt16(value);
+            opdracht opdracht = OpdrachtManagement.getOpdracht(valueInt);
+
+            this.Controls.Clear();
+
+            ucOpdracht uc = new ucOpdracht();
+            uc.opdracht = opdracht;
+            this.Controls.Add(uc);
+        }
     }
 }
