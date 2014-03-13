@@ -1,0 +1,877 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{34D544FD-BB52-405B-8D6C-20C5A76A2177}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CarBus</RootNamespace>
+    <AssemblyName>CarBus</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>bus.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.4.3.1\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="obout_SuperForm">
+      <HintPath>..\..\..\..\Documents\Visual Studio 2010\Controls\obout Suite for ASP.NET 3.5 and up\obout_SuperForm.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Agenda\ucAgenda2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Agenda\ucAgenda2.Designer.cs">
+      <DependentUpon>ucAgenda2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agenda\ucEditContractPerDay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Agenda\ucEditContractPerDay.Designer.cs">
+      <DependentUpon>ucEditContractPerDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="autobusDataSet.cs">
+      <DependentUpon>autobusDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="autobusDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>autobusDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Beheer\ucBoekjaren.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Beheer\ucBoekjaren.Designer.cs">
+      <DependentUpon>ucBoekjaren.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOfferteOverzicht.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOfferteOverzicht.Designer.cs">
+      <DependentUpon>frmOfferteOverzicht.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelectTeFactureren.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectTeFactureren.Designer.cs">
+      <DependentUpon>frmSelectTeFactureren.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loonopgave\ExcelWriter.cs" />
+    <Compile Include="Loonopgave\ucLoonopgaveDagItterate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Loonopgave\ucLoonopgaveDagItterate.Designer.cs">
+      <DependentUpon>ucLoonopgaveDagItterate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loonopgave\ucLoonopgaveOverzichtmini.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Loonopgave\ucLoonopgaveOverzichtmini.Designer.cs">
+      <DependentUpon>ucLoonopgaveOverzichtmini.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agenda\ucAgendaOpdracht.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Agenda\ucAgendaOpdracht.Designer.cs">
+      <DependentUpon>ucAgendaOpdracht.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agenda\ucAgendaContract.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Agenda\ucAgendaContract.Designer.cs">
+      <DependentUpon>ucAgendaContract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucChauffeurKiezer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucChauffeurKiezer.Designer.cs">
+      <DependentUpon>ucChauffeurKiezer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucChauffeurRit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucChauffeurRit.Designer.cs">
+      <DependentUpon>ucChauffeurRit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucDetailFactuur.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucDetailFactuur.Designer.cs">
+      <DependentUpon>ucDetailFactuur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucFactuurMini.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucFactuurMini.Designer.cs">
+      <DependentUpon>ucFactuurMini.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucFactuurMini2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucFactuurMini2.Designer.cs">
+      <DependentUpon>ucFactuurMini2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucLeverancierOpdracht.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucLeverancierOpdracht.Designer.cs">
+      <DependentUpon>ucLeverancierOpdracht.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucLoonSoort.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucLoonSoort.Designer.cs">
+      <DependentUpon>ucLoonSoort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucOfferteMini.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucOfferteMini.Designer.cs">
+      <DependentUpon>ucOfferteMini.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucOpdrachten.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucOpdrachten.Designer.cs">
+      <DependentUpon>ucOpdrachten.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucKost.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucKost.Designer.cs">
+      <DependentUpon>ucKost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucOpdrachtMini.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucOpdrachtMini.Designer.cs">
+      <DependentUpon>ucOpdrachtMini.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucOpdrachtPrijs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucOpdrachtPrijs.Designer.cs">
+      <DependentUpon>ucOpdrachtPrijs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucOpleiding.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucOpleiding.Designer.cs">
+      <DependentUpon>ucOpleiding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucRit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucRit.Designer.cs">
+      <DependentUpon>ucRit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opdrachten\ucRitplan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Opdrachten\ucRitplan.Designer.cs">
+      <DependentUpon>ucRitplan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucVoertuigInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucVoertuigInfo.Designer.cs">
+      <DependentUpon>ucVoertuigInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucVoertuigKiezer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucVoertuigKiezer.Designer.cs">
+      <DependentUpon>ucVoertuigKiezer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loonopgave\ucLoonopgaveDag.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Loonopgave\ucLoonopgaveDag.Designer.cs">
+      <DependentUpon>ucLoonopgaveDag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loonopgave\ucLoonopgaveMaand.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Loonopgave\ucLoonopgaveMaand.Designer.cs">
+      <DependentUpon>ucLoonopgaveMaand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loonopgave\ucLoonopgaveOverzicht.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Loonopgave\ucLoonopgaveOverzicht.Designer.cs">
+      <DependentUpon>ucLoonopgaveOverzicht.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loonopgave\ucLoonsoorten.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Loonopgave\ucLoonsoorten.Designer.cs">
+      <DependentUpon>ucLoonsoorten.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Beheer\frmbedrijven.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Beheer\frmbedrijven.Designer.cs">
+      <DependentUpon>frmbedrijven.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Beheer\frmActiviteit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Beheer\frmActiviteit.Designer.cs">
+      <DependentUpon>frmActiviteit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUps\frmDagprijs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUps\frmDagprijs.Designer.cs">
+      <DependentUpon>frmDagprijs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUps\frmKmprijs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUps\frmKmprijs.Designer.cs">
+      <DependentUpon>frmKmprijs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Beheer\frmLeverancier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Beheer\frmLeverancier.Designer.cs">
+      <DependentUpon>frmLeverancier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Beheer\frmLoonSoort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Beheer\frmLoonSoort.Designer.cs">
+      <DependentUpon>frmLoonSoort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUps\frmNotities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUps\frmNotities.Designer.cs">
+      <DependentUpon>frmNotities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUps\frmOpdracht.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUps\frmOpdracht.Designer.cs">
+      <DependentUpon>frmOpdracht.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopUps\frmPrijsberekening.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUps\frmPrijsberekening.Designer.cs">
+      <DependentUpon>frmPrijsberekening.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZoekContracten.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZoekContracten.Designer.cs">
+      <DependentUpon>frmZoekContracten.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZoeken.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZoeken.Designer.cs">
+      <DependentUpon>frmZoeken.cs</DependentUpon>
+    </Compile>
+    <Compile Include="generators.cs" />
+    <Compile Include="PopUps\frmRitbladChauffeur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUps\frmRitbladChauffeur.Designer.cs">
+      <DependentUpon>frmRitbladChauffeur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistiek\ucKlantOffertes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Statistiek\ucKlantOffertes.Designer.cs">
+      <DependentUpon>ucKlantOffertes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistiek\ucChauffeurTeRijdenOpdrachten.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Statistiek\ucChauffeurTeRijdenOpdrachten.Designer.cs">
+      <DependentUpon>ucChauffeurTeRijdenOpdrachten.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistiek\ucAdvancedSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Statistiek\ucAdvancedSearch.Designer.cs">
+      <DependentUpon>ucAdvancedSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistiek\ucFactuurBetaald.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Statistiek\ucFactuurBetaald.Designer.cs">
+      <DependentUpon>ucFactuurBetaald.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistiek\ucFactuurTeBetalen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Statistiek\ucFactuurTeBetalen.Designer.cs">
+      <DependentUpon>ucFactuurTeBetalen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistiek\ucFactuurTeFactureren.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Statistiek\ucFactuurTeFactureren.Designer.cs">
+      <DependentUpon>ucFactuurTeFactureren.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistiek\ucKlantBetalingen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Statistiek\ucKlantBetalingen.Designer.cs">
+      <DependentUpon>ucKlantBetalingen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistiek\ucKlantOpdrachten.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Statistiek\ucKlantOpdrachten.Designer.cs">
+      <DependentUpon>ucKlantOpdrachten.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistiek\UcLeverancierPrijzen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Statistiek\UcLeverancierPrijzen.Designer.cs">
+      <DependentUpon>UcLeverancierPrijzen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistiek\ucLeverancierOpdrachten.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Statistiek\ucLeverancierOpdrachten.Designer.cs">
+      <DependentUpon>ucLeverancierOpdrachten.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistiek\ucTeAccepterenOffertes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Statistiek\ucTeAccepterenOffertes.Designer.cs">
+      <DependentUpon>ucTeAccepterenOffertes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistiek\ucVoertuigOpdrachten.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Statistiek\ucVoertuigOpdrachten.Designer.cs">
+      <DependentUpon>ucVoertuigOpdrachten.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucAccommodaties.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucAccommodaties.Designer.cs">
+      <DependentUpon>ucAccommodaties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Beheer\ucAdres.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Beheer\ucAdres.Designer.cs">
+      <DependentUpon>ucAdres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\ucChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Chart\ucChart.Designer.cs">
+      <DependentUpon>ucChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucReservatie.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucReservatie.Designer.cs">
+      <DependentUpon>ucReservatie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database.cs" />
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agenda\ucAgenda.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Agenda\ucAgenda.Designer.cs">
+      <DependentUpon>ucAgenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Beheer\ucChauffeur.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Beheer\ucChauffeur.Designer.cs">
+      <DependentUpon>ucChauffeur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucFactuur.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucFactuur.Designer.cs">
+      <DependentUpon>ucFactuur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucFactuurContract.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucFactuurContract.Designer.cs">
+      <DependentUpon>ucFactuurContract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Beheer\ucGebruikers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Beheer\ucGebruikers.Designer.cs">
+      <DependentUpon>ucGebruikers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucInfo.Designer.cs">
+      <DependentUpon>ucInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucInfoContract.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucInfoContract.Designer.cs">
+      <DependentUpon>ucInfoContract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucKlant.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucKlant.Designer.cs">
+      <DependentUpon>ucKlant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Beheer\ucLeverancier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Beheer\ucLeverancier.Designer.cs">
+      <DependentUpon>ucLeverancier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucOfferte.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucOfferte.Designer.cs">
+      <DependentUpon>ucOfferte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Beheer\frmAdres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Beheer\frmAdres.Designer.cs">
+      <DependentUpon>frmAdres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucOpdracht.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucOpdracht.Designer.cs">
+      <DependentUpon>ucOpdracht.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucPrintouts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucPrintouts.Designer.cs">
+      <DependentUpon>ucPrintouts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucTest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucTest.Designer.cs">
+      <DependentUpon>ucTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Beheer\ucVoertuig.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Beheer\ucVoertuig.Designer.cs">
+      <DependentUpon>ucVoertuig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opdrachten\ucContract.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Opdrachten\ucContract.Designer.cs">
+      <DependentUpon>ucContract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerticalProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="Agenda\ucAgenda2.resx">
+      <DependentUpon>ucAgenda2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agenda\ucEditContractPerDay.resx">
+      <DependentUpon>ucEditContractPerDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beheer\ucBoekjaren.resx">
+      <DependentUpon>ucBoekjaren.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOfferteOverzicht.resx">
+      <DependentUpon>frmOfferteOverzicht.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectTeFactureren.resx">
+      <DependentUpon>frmSelectTeFactureren.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loonopgave\ucLoonopgaveDagItterate.resx">
+      <DependentUpon>ucLoonopgaveDagItterate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loonopgave\ucLoonopgaveOverzichtmini.resx">
+      <DependentUpon>ucLoonopgaveOverzichtmini.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agenda\ucAgendaOpdracht.resx">
+      <DependentUpon>ucAgendaOpdracht.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agenda\ucAgendaContract.resx">
+      <DependentUpon>ucAgendaContract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucChauffeurKiezer.resx">
+      <DependentUpon>ucChauffeurKiezer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucChauffeurRit.resx">
+      <DependentUpon>ucChauffeurRit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucDetailFactuur.resx">
+      <DependentUpon>ucDetailFactuur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucFactuurMini.resx">
+      <DependentUpon>ucFactuurMini.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucFactuurMini2.resx">
+      <DependentUpon>ucFactuurMini2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucLeverancierOpdracht.resx">
+      <DependentUpon>ucLeverancierOpdracht.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucLoonSoort.resx">
+      <DependentUpon>ucLoonSoort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucOfferteMini.resx">
+      <DependentUpon>ucOfferteMini.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucOpdrachten.resx">
+      <DependentUpon>ucOpdrachten.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucKost.resx">
+      <DependentUpon>ucKost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucOpdrachtMini.resx">
+      <DependentUpon>ucOpdrachtMini.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucOpdrachtPrijs.resx">
+      <DependentUpon>ucOpdrachtPrijs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucOpleiding.resx">
+      <DependentUpon>ucOpleiding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucRit.resx">
+      <DependentUpon>ucRit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opdrachten\ucRitplan.resx">
+      <DependentUpon>ucRitplan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucVoertuigInfo.resx">
+      <DependentUpon>ucVoertuigInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucVoertuigKiezer.resx">
+      <DependentUpon>ucVoertuigKiezer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loonopgave\ucLoonopgaveDag.resx">
+      <DependentUpon>ucLoonopgaveDag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loonopgave\ucLoonopgaveMaand.resx">
+      <DependentUpon>ucLoonopgaveMaand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loonopgave\ucLoonopgaveOverzicht.resx">
+      <DependentUpon>ucLoonopgaveOverzicht.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loonopgave\ucLoonsoorten.resx">
+      <DependentUpon>ucLoonsoorten.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beheer\frmbedrijven.resx">
+      <DependentUpon>frmbedrijven.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beheer\frmActiviteit.resx">
+      <DependentUpon>frmActiviteit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUps\frmDagprijs.resx">
+      <DependentUpon>frmDagprijs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUps\frmKmprijs.resx">
+      <DependentUpon>frmKmprijs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beheer\frmLeverancier.resx">
+      <DependentUpon>frmLeverancier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beheer\frmLoonSoort.resx">
+      <DependentUpon>frmLoonSoort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUps\frmNotities.resx">
+      <DependentUpon>frmNotities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUps\frmOpdracht.resx">
+      <DependentUpon>frmOpdracht.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUps\frmPrijsberekening.resx">
+      <DependentUpon>frmPrijsberekening.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZoekContracten.resx">
+      <DependentUpon>frmZoekContracten.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZoeken.resx">
+      <DependentUpon>frmZoeken.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUps\frmRitbladChauffeur.resx">
+      <DependentUpon>frmRitbladChauffeur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistiek\ucKlantOffertes.resx">
+      <DependentUpon>ucKlantOffertes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistiek\ucChauffeurTeRijdenOpdrachten.resx">
+      <DependentUpon>ucChauffeurTeRijdenOpdrachten.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistiek\ucAdvancedSearch.resx">
+      <DependentUpon>ucAdvancedSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistiek\ucFactuurBetaald.resx">
+      <DependentUpon>ucFactuurBetaald.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistiek\ucFactuurTeBetalen.resx">
+      <DependentUpon>ucFactuurTeBetalen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistiek\ucFactuurTeFactureren.resx">
+      <DependentUpon>ucFactuurTeFactureren.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistiek\ucKlantBetalingen.resx">
+      <DependentUpon>ucKlantBetalingen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistiek\ucKlantOpdrachten.resx">
+      <DependentUpon>ucKlantOpdrachten.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistiek\UcLeverancierPrijzen.resx">
+      <DependentUpon>UcLeverancierPrijzen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistiek\ucLeverancierOpdrachten.resx">
+      <DependentUpon>ucLeverancierOpdrachten.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistiek\ucTeAccepterenOffertes.resx">
+      <DependentUpon>ucTeAccepterenOffertes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistiek\ucVoertuigOpdrachten.resx">
+      <DependentUpon>ucVoertuigOpdrachten.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucAccommodaties.resx">
+      <DependentUpon>ucAccommodaties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beheer\ucAdres.resx">
+      <DependentUpon>ucAdres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chart\ucChart.resx">
+      <DependentUpon>ucChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucReservatie.resx">
+      <DependentUpon>ucReservatie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agenda\ucAgenda.resx">
+      <DependentUpon>ucAgenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beheer\ucChauffeur.resx">
+      <DependentUpon>ucChauffeur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucFactuur.resx">
+      <DependentUpon>ucFactuur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucFactuurContract.resx">
+      <DependentUpon>ucFactuurContract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beheer\ucGebruikers.resx">
+      <DependentUpon>ucGebruikers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucInfo.resx">
+      <DependentUpon>ucInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucInfoContract.resx">
+      <DependentUpon>ucInfoContract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucKlant.resx">
+      <DependentUpon>ucKlant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beheer\ucLeverancier.resx">
+      <DependentUpon>ucLeverancier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucOfferte.resx">
+      <DependentUpon>ucOfferte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beheer\frmAdres.resx">
+      <DependentUpon>frmAdres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucOpdracht.resx">
+      <DependentUpon>ucOpdracht.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucPrintouts.resx">
+      <DependentUpon>ucPrintouts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucTest.resx">
+      <DependentUpon>ucTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beheer\ucVoertuig.resx">
+      <DependentUpon>ucVoertuig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Opdrachten\ucContract.resx">
+      <DependentUpon>ucContract.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="autobusDataSet.xsc">
+      <DependentUpon>autobusDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="autobusDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>autobusDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="autobusDataSet.xss">
+      <DependentUpon>autobusDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Backend\Backend.csproj">
+      <Project>{5F70634A-234B-441D-8B66-35B02E420029}</Project>
+      <Name>Backend</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gantt\Gantt.vbproj">
+      <Project>{D58D17FF-69FA-4CFA-A47A-7B5954B973BE}</Project>
+      <Name>Gantt</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bus.ico" />
+    <None Include="Resources\check-mark-hi.png" />
+    <None Include="Resources\Exclamation_mark_red.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

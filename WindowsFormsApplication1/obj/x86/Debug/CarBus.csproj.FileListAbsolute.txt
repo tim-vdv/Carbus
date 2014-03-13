@@ -1,0 +1,630 @@
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.exe.config
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.exe
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.pdb
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Backend.dll
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.dll
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.dll
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Backend.pdb
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.pdb
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.xml
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.xml
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Properties.Resources.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.exe
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.pdb
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucLoonopgaveOverzichtmini.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucAgendaContract.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucAgendaOpdracht.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucChauffeurKiezer.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucChauffeurRit.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucDetailFactuur.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucFactuurMini.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucFactuurMini2.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucLeverancierOpdracht.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucLoonSoort.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOfferteMini.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucKost.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOpdrachtMini.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOpdrachtPrijs.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOpleiding.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucRit.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucRitplan.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucVoertuigInfo.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucVoertuigKiezer.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonopgaveDag.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonopgaveMaand.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucLoonopgaveOverzicht.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonsoorten.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmBedrijven.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmActiviteit.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmDagprijs.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmKmprijs.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmLeverancier.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmLogin.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmLoonSoort.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmPrijsberekening.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmZoekContracten.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmZoeken.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucChauffeurTeRijdenOpdrachten.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucAdvancedSearch.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucFactuurBetaald.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucFactuurTeBetalen.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucFactuurTeFactureren.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucKlantBetalingen.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucKlantOpdrachten.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.UcLeverancierPrijzen.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucLeverancierOpdrachten.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucTeAccepterenOffertes.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucVoertuigOpdrachten.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAccommodaties.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAdres.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Chart.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucReservatie.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAgenda.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucChauffeur.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucFactuur.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucFactuurContract.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucbedrijven.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucInfo.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucInfoContract.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucKlant.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLeverancier.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucOfferte.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmAdres.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucOpdracht.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucTest.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucVoertuig.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucContract.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmMain.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachten.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucKlantOffertes.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonopgaveDagItterate.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.exe.config
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.exe
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.pdb
+C:\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.exe
+C:\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.pdb
+C:\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Backend.dll
+C:\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.dll
+C:\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.dll
+C:\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Backend.pdb
+C:\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.pdb
+C:\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.xml
+C:\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.xml
+C:\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.csprojResolveAssemblyReference.cache
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonopgaveDagItterate.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucLoonopgaveOverzichtmini.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucAgendaContract.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucAgendaOpdracht.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucChauffeurKiezer.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucChauffeurRit.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucDetailFactuur.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucFactuurMini.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucFactuurMini2.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucLeverancierOpdracht.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucLoonSoort.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOfferteMini.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachten.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucKost.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOpdrachtMini.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOpdrachtPrijs.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOpleiding.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucRit.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucRitplan.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucVoertuigInfo.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucVoertuigKiezer.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonopgaveDag.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonopgaveMaand.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucLoonopgaveOverzicht.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonsoorten.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmBedrijven.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmActiviteit.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmDagprijs.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmKmprijs.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmLeverancier.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmLogin.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmLoonSoort.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmPrijsberekening.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmZoekContracten.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmZoeken.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucKlantOffertes.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucChauffeurTeRijdenOpdrachten.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucAdvancedSearch.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucFactuurBetaald.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucFactuurTeBetalen.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucFactuurTeFactureren.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucKlantBetalingen.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucKlantOpdrachten.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.UcLeverancierPrijzen.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucLeverancierOpdrachten.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucTeAccepterenOffertes.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucVoertuigOpdrachten.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAccommodaties.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAdres.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Chart.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucReservatie.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAgenda.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucChauffeur.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucFactuur.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucFactuurContract.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucbedrijven.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucInfo.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucInfoContract.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucKlant.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLeverancier.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucOfferte.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmAdres.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucOpdracht.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucTest.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucVoertuig.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmMain.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Properties.Resources.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucContract.resources
+C:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.csproj.GenerateResource.Cache
+\\PORTA-JEROEN\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.exe.config
+\\PORTA-JEROEN\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.exe
+\\PORTA-JEROEN\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.pdb
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucBoekjaren.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.exe.config
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.exe
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.pdb
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Backend.dll
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.dll
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.dll
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Backend.pdb
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.pdb
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.xml
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.xml
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucBoekjaren.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmOfferteOverzicht.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmSelectTeFactureren.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonopgaveDagItterate.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucLoonopgaveOverzichtmini.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucAgendaContract.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucAgendaOpdracht.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucChauffeurKiezer.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucChauffeurRit.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucDetailFactuur.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucFactuurMini.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucFactuurMini2.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucLeverancierOpdracht.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucLoonSoort.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOfferteMini.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachten.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucKost.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOpdrachtMini.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOpdrachtPrijs.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOpleiding.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucRit.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucRitplan.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucVoertuigInfo.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucVoertuigKiezer.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonopgaveDag.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonopgaveMaand.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucLoonopgaveOverzicht.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonsoorten.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmBedrijven.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmActiviteit.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmDagprijs.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmKmprijs.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmLeverancier.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmLogin.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmLoonSoort.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmPrijsberekening.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmZoekContracten.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmZoeken.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucKlantOffertes.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucChauffeurTeRijdenOpdrachten.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucAdvancedSearch.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucFactuurBetaald.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucFactuurTeBetalen.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucFactuurTeFactureren.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucKlantBetalingen.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucKlantOpdrachten.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.UcLeverancierPrijzen.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucLeverancierOpdrachten.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucTeAccepterenOffertes.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucVoertuigOpdrachten.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAccommodaties.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAdres.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Chart.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucReservatie.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAgenda.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucChauffeur.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucFactuur.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucFactuurContract.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucbedrijven.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucInfo.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucInfoContract.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucKlant.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLeverancier.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucOfferte.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmAdres.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucOpdracht.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucTest.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucVoertuig.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmMain.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Properties.Resources.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucContract.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.exe
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.pdb
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.PopUps.frmNotities.resources
+C:\Users\jens.DVIT\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.PopUps.frmOpdracht.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.exe.config
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.exe
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.pdb
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.exe
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.pdb
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Backend.dll
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.dll
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.dll
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Backend.pdb
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.pdb
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.xml
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.xml
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.csprojResolveAssemblyReference.cache
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucBoekjaren.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmOfferteOverzicht.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmSelectTeFactureren.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonopgaveDagItterate.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucLoonopgaveOverzichtmini.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucAgendaOpdracht.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucAgendaContract.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucChauffeurKiezer.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucChauffeurRit.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucDetailFactuur.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucFactuurMini.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucFactuurMini2.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucLeverancierOpdracht.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucLoonSoort.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOfferteMini.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachten.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucKost.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOpdrachtMini.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOpdrachtPrijs.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOpleiding.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucRit.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucRitplan.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucVoertuigInfo.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucVoertuigKiezer.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonopgaveDag.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonopgaveMaand.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucLoonopgaveOverzicht.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonsoorten.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmBedrijven.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmActiviteit.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmDagprijs.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmKmprijs.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmLeverancier.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmLogin.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmLoonSoort.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.PopUps.frmNotities.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.PopUps.frmOpdracht.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmPrijsberekening.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmZoekContracten.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmZoeken.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucKlantOffertes.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucChauffeurTeRijdenOpdrachten.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucAdvancedSearch.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucFactuurBetaald.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucFactuurTeBetalen.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucFactuurTeFactureren.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucKlantBetalingen.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucKlantOpdrachten.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.UcLeverancierPrijzen.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucLeverancierOpdrachten.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucTeAccepterenOffertes.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucVoertuigOpdrachten.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAccommodaties.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAdres.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Chart.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucReservatie.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAgenda.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucChauffeur.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucFactuur.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucFactuurContract.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucbedrijven.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucInfo.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucInfoContract.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucKlant.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLeverancier.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucOfferte.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmAdres.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucOpdracht.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucTest.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucVoertuig.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmMain.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Properties.Resources.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucContract.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.csproj.GenerateResource.Cache
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.exe.config
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.exe
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.pdb
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.exe
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.pdb
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Backend.dll
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.dll
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.dll
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Backend.pdb
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.pdb
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.xml
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.xml
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.csprojResolveAssemblyReference.cache
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucBoekjaren.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmOfferteOverzicht.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmSelectTeFactureren.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonopgaveDagItterate.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucLoonopgaveOverzichtmini.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucAgendaOpdracht.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucAgendaContract.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucChauffeurKiezer.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucChauffeurRit.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucDetailFactuur.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucFactuurMini.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucFactuurMini2.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucLeverancierOpdracht.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucLoonSoort.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOfferteMini.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachten.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucKost.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOpdrachtMini.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOpdrachtPrijs.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOpleiding.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucRit.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucRitplan.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucVoertuigInfo.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucVoertuigKiezer.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonopgaveDag.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonopgaveMaand.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucLoonopgaveOverzicht.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonsoorten.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmBedrijven.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmActiviteit.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmDagprijs.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmKmprijs.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmLeverancier.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmLogin.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmLoonSoort.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.PopUps.frmNotities.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.PopUps.frmOpdracht.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmPrijsberekening.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmZoekContracten.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmZoeken.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucKlantOffertes.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucChauffeurTeRijdenOpdrachten.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucAdvancedSearch.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucFactuurBetaald.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucFactuurTeBetalen.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucFactuurTeFactureren.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucKlantBetalingen.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucKlantOpdrachten.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.UcLeverancierPrijzen.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucLeverancierOpdrachten.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucTeAccepterenOffertes.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucVoertuigOpdrachten.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAccommodaties.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAdres.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Chart.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucReservatie.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAgenda.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucChauffeur.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucFactuur.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucFactuurContract.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucbedrijven.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucInfo.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucInfoContract.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucKlant.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLeverancier.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucOfferte.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmAdres.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucOpdracht.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucTest.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucVoertuig.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmMain.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Properties.Resources.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucContract.resources
+C:\Users\Jeroen\Desktop\Backupscarnbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.csproj.GenerateResource.Cache
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAgenda2.resources
+C:\Users\Jeroen\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucEditContractPerDay.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.exe.config
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.exe
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.pdb
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.csprojResolveAssemblyReference.cache
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAgenda2.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucEditContractPerDay.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucBoekjaren.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmOfferteOverzicht.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmSelectTeFactureren.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonopgaveDagItterate.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucLoonopgaveOverzichtmini.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucAgendaOpdracht.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucAgendaContract.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucChauffeurKiezer.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucChauffeurRit.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucDetailFactuur.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucFactuurMini.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucFactuurMini2.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucLeverancierOpdracht.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucLoonSoort.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOfferteMini.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachten.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucKost.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOpdrachtMini.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOpdrachtPrijs.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOpleiding.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucRit.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucRitplan.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucVoertuigInfo.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucVoertuigKiezer.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonopgaveDag.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonopgaveMaand.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucLoonopgaveOverzicht.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonsoorten.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmBedrijven.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmActiviteit.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmDagprijs.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmKmprijs.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmLeverancier.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmLogin.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmLoonSoort.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.PopUps.frmNotities.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.PopUps.frmOpdracht.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmPrijsberekening.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmZoekContracten.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmZoeken.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucKlantOffertes.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucChauffeurTeRijdenOpdrachten.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucAdvancedSearch.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucFactuurBetaald.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucFactuurTeBetalen.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucFactuurTeFactureren.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucKlantBetalingen.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucKlantOpdrachten.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.UcLeverancierPrijzen.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucLeverancierOpdrachten.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucTeAccepterenOffertes.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucVoertuigOpdrachten.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAccommodaties.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAdres.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Chart.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucReservatie.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAgenda.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucChauffeur.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucFactuur.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucFactuurContract.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucbedrijven.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucInfo.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucInfoContract.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucKlant.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLeverancier.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucOfferte.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmAdres.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucOpdracht.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucTest.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucVoertuig.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmMain.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Properties.Resources.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucContract.resources
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.csproj.GenerateResource.Cache
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.exe
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.pdb
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Backend.dll
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.dll
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.dll
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Backend.pdb
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.pdb
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.xml
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.xml
+C:\Users\Jeroen\Desktop\CarBusApp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\tim.DVIT\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.exe.config
+C:\Users\tim.DVIT\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.exe
+C:\Users\tim.DVIT\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.pdb
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.exe.config
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.exe
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.pdb
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.exe
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.pdb
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Backend.dll
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.dll
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.dll
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Backend.pdb
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.pdb
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.xml
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.xml
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.csprojResolveAssemblyReference.cache
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAgenda2.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucEditContractPerDay.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucBoekjaren.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmOfferteOverzicht.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmSelectTeFactureren.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonopgaveDagItterate.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucLoonopgaveOverzichtmini.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucAgendaOpdracht.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucAgendaContract.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucChauffeurKiezer.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucChauffeurRit.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucDetailFactuur.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucFactuurMini.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucFactuurMini2.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucLeverancierOpdracht.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucLoonSoort.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOfferteMini.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachten.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucKost.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOpdrachtMini.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOpdrachtPrijs.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucOpleiding.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucRit.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucRitplan.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucVoertuigInfo.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucVoertuigKiezer.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonopgaveDag.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonopgaveMaand.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucLoonopgaveOverzicht.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLoonsoorten.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmBedrijven.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmActiviteit.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmDagprijs.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmKmprijs.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmLeverancier.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmLogin.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmLoonSoort.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.PopUps.frmNotities.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.PopUps.frmOpdracht.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmPrijsberekening.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmZoekContracten.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmZoeken.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucKlantOffertes.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucChauffeurTeRijdenOpdrachten.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucAdvancedSearch.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucFactuurBetaald.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucFactuurTeBetalen.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucFactuurTeFactureren.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucKlantBetalingen.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucKlantOpdrachten.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.UcLeverancierPrijzen.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucLeverancierOpdrachten.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucTeAccepterenOffertes.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Statistiek.ucVoertuigOpdrachten.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAccommodaties.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAdres.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Chart.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Controls.ucReservatie.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucAgenda.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucChauffeur.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucFactuur.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucFactuurContract.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucbedrijven.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucInfo.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucInfoContract.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucKlant.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucLeverancier.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucOfferte.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmAdres.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucOpdracht.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucTest.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucVoertuig.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.frmMain.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Properties.Resources.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucContract.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.csproj.GenerateResource.Cache
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.ucPrintouts.resources
+C:\Users\tim.DVIT\Desktop\Carbus\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.PopUps.frmRitbladChauffeur.resources

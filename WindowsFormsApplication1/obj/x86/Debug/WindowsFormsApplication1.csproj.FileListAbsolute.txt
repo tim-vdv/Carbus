@@ -1,0 +1,493 @@
+c:\users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+c:\users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+c:\users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+c:\users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+c:\users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.dll
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.pdb
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.xml
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Chart.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucOpdracht.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucAdres.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucInfo.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucOfferte.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmAdres.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmMain.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.dll
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.xml
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucFactuur.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucKost.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Backend.dll
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Backend.pdb
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucAccommodaties.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucGebruikers.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpleiding.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucChauffeur.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucKlant.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLeverancier.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucVoertuig.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmDagprijs.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmKmprijs.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmLoonSoort.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucReservatie.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmLeverancier.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmZoeken.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachten.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmLogin.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucRit.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucContract.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmZoekContracten.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucTest.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucRitplan.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucLoonSoort.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucChauffeurKiezer.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucVoertuigKiezer.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmPrijsberekening.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmActiviteit.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachtMini.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachtPrijs.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucChauffeurRit.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucLeverancierOpdracht.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucFactuurMini.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucFactuurTeBetalen.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucFactuurMini2.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucFactuurBetaald.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucFactuurTeFactureren.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucVoertuigInfo.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucVoertuigOpdrachten.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOfferteMini.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucTeAccepterenOffertes.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucInfoContract.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucFactuurContract.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucAgendaContract.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucAgenda.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucAgendaOpdracht.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucDetailFactuur.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucChauffeurTeRijdenOpdrachten.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucKlantOpdrachten.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucLeverancierOpdrachten.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucKlantBetalingen.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.UcLeverancierPrijzen.resources
+C:\Users\thomas\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucAdvancedSearch.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Backend.dll
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.dll
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.dll
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Backend.pdb
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.pdb
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.xml
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.xml
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucAgendaContract.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucAgendaOpdracht.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucChauffeurKiezer.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucChauffeurRit.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucDetailFactuur.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucFactuurMini.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucFactuurMini2.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucLeverancierOpdracht.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucLoonSoort.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOfferteMini.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachten.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucKost.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachtMini.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachtPrijs.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpleiding.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucRit.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucRitplan.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucVoertuigInfo.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucVoertuigKiezer.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmActiviteit.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmDagprijs.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmKmprijs.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmLeverancier.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmLogin.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmLoonSoort.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmPrijsberekening.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmZoekContracten.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmZoeken.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucChauffeurTeRijdenOpdrachten.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucAdvancedSearch.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucFactuurBetaald.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucFactuurTeBetalen.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucFactuurTeFactureren.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucKlantBetalingen.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucKlantOpdrachten.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.UcLeverancierPrijzen.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucLeverancierOpdrachten.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucTeAccepterenOffertes.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucVoertuigOpdrachten.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucAccommodaties.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucAdres.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Chart.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucReservatie.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucAgenda.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucChauffeur.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucFactuur.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucFactuurContract.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucGebruikers.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucInfo.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucInfoContract.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucKlant.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLeverancier.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucOfferte.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmAdres.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucOpdracht.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucTest.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucVoertuig.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmMain.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucContract.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLoonsoorten.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLoonopgaveMaand.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucLoonopgaveOverzicht.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLoonopgaveDag.resources
+C:\data\31-07-2012\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucLoonopgaveOverzichtmini.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\Backend.dll
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\EntityFramework.dll
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\Gantt.dll
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\Backend.pdb
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\Gantt.pdb
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\Gantt.xml
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\EntityFramework.xml
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucLoonopgaveOverzichtmini.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucAgendaContract.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucAgendaOpdracht.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucChauffeurKiezer.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucChauffeurRit.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucDetailFactuur.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucFactuurMini.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucFactuurMini2.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucLeverancierOpdracht.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucLoonSoort.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOfferteMini.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachten.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucKost.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachtMini.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachtPrijs.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpleiding.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucRit.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucRitplan.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucVoertuigInfo.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucVoertuigKiezer.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLoonopgaveDag.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLoonopgaveMaand.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucLoonopgaveOverzicht.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLoonsoorten.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmActiviteit.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmDagprijs.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmKmprijs.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmLeverancier.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmLogin.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmLoonSoort.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmPrijsberekening.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmZoekContracten.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmZoeken.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucChauffeurTeRijdenOpdrachten.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucAdvancedSearch.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucFactuurBetaald.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucFactuurTeBetalen.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucFactuurTeFactureren.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucKlantBetalingen.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucKlantOpdrachten.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.UcLeverancierPrijzen.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucLeverancierOpdrachten.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucTeAccepterenOffertes.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucVoertuigOpdrachten.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucAccommodaties.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucAdres.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Chart.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucReservatie.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucAgenda.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucChauffeur.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucFactuur.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucFactuurContract.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucGebruikers.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucInfo.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucInfoContract.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucKlant.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLeverancier.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucOfferte.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmAdres.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucOpdracht.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucTest.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucVoertuig.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmMain.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucContract.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\Backend.dll
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\EntityFramework.dll
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\Gantt.dll
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\Backend.pdb
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\Gantt.pdb
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\Gantt.xml
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\EntityFramework.xml
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucLoonopgaveOverzichtmini.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucAgendaContract.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucAgendaOpdracht.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucChauffeurKiezer.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucChauffeurRit.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucDetailFactuur.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucFactuurMini.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucFactuurMini2.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucLeverancierOpdracht.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucLoonSoort.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOfferteMini.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachten.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucKost.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachtMini.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachtPrijs.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpleiding.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucRit.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucRitplan.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucVoertuigInfo.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucVoertuigKiezer.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLoonopgaveDag.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLoonopgaveMaand.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucLoonopgaveOverzicht.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLoonsoorten.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmActiviteit.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmDagprijs.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmKmprijs.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmLeverancier.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmLogin.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmLoonSoort.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmPrijsberekening.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmZoekContracten.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmZoeken.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucChauffeurTeRijdenOpdrachten.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucAdvancedSearch.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucFactuurBetaald.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucFactuurTeBetalen.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucFactuurTeFactureren.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucKlantBetalingen.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucKlantOpdrachten.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.UcLeverancierPrijzen.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucLeverancierOpdrachten.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucTeAccepterenOffertes.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucVoertuigOpdrachten.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucAccommodaties.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucAdres.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Chart.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucReservatie.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucAgenda.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucChauffeur.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucFactuur.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucFactuurContract.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucGebruikers.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucInfo.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucInfoContract.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucKlant.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLeverancier.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucOfferte.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmAdres.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucOpdracht.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucTest.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucVoertuig.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmMain.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucContract.resources
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\data\05-09-2012\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucLoonopgaveOverzichtmini.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucAgendaContract.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucAgendaOpdracht.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucChauffeurKiezer.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucChauffeurRit.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucDetailFactuur.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucFactuurMini.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucFactuurMini2.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucLeverancierOpdracht.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucLoonSoort.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOfferteMini.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachten.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucKost.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachtMini.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachtPrijs.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpleiding.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucRit.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucRitplan.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucVoertuigInfo.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucVoertuigKiezer.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLoonopgaveDag.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLoonopgaveMaand.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucLoonopgaveOverzicht.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLoonsoorten.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmActiviteit.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmDagprijs.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmKmprijs.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmLeverancier.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmLogin.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmLoonSoort.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmPrijsberekening.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmZoekContracten.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmZoeken.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucChauffeurTeRijdenOpdrachten.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucAdvancedSearch.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucFactuurBetaald.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucFactuurTeBetalen.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucFactuurTeFactureren.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucKlantBetalingen.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucKlantOpdrachten.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.UcLeverancierPrijzen.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucLeverancierOpdrachten.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucTeAccepterenOffertes.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucVoertuigOpdrachten.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucAccommodaties.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucAdres.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Chart.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucReservatie.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucAgenda.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucChauffeur.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucFactuur.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucFactuurContract.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucGebruikers.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucInfo.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucInfoContract.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucKlant.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLeverancier.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucOfferte.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmAdres.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucOpdracht.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucTest.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucVoertuig.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmMain.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucContract.resources
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\Backend.dll
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\EntityFramework.dll
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\Gantt.dll
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\Backend.pdb
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\Gantt.pdb
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\Gantt.xml
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\EntityFramework.xml
+C:\data\05-09-2012(2)\WindowsFormsApplication2\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucLoonopgaveOverzichtmini.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLoonopgaveDag.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLoonopgaveMaand.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucLoonopgaveOverzicht.resources
+C:\Users\thomas\Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLoonsoorten.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Backend.dll
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.dll
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.dll
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Backend.pdb
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.pdb
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Gantt.xml
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.xml
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucLoonopgaveOverzichtmini.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucAgendaContract.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucAgendaOpdracht.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucChauffeurKiezer.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucChauffeurRit.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucDetailFactuur.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucFactuurMini.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucFactuurMini2.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucLeverancierOpdracht.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucLoonSoort.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOfferteMini.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachten.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucKost.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachtMini.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpdrachtPrijs.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucOpleiding.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucRit.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucRitplan.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucVoertuigInfo.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucVoertuigKiezer.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLoonopgaveDag.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLoonopgaveMaand.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucLoonopgaveOverzicht.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLoonsoorten.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmActiviteit.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmDagprijs.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmKmprijs.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmLeverancier.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmLogin.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmLoonSoort.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmPrijsberekening.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmZoekContracten.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmZoeken.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucChauffeurTeRijdenOpdrachten.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucAdvancedSearch.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucFactuurBetaald.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucFactuurTeBetalen.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucFactuurTeFactureren.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucKlantBetalingen.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucKlantOpdrachten.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.UcLeverancierPrijzen.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucLeverancierOpdrachten.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucTeAccepterenOffertes.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Statistiek.ucVoertuigOpdrachten.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucAccommodaties.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucAdres.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Chart.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Controls.ucReservatie.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucAgenda.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucChauffeur.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucFactuur.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucFactuurContract.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucInfo.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucInfoContract.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucKlant.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucLeverancier.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucOfferte.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmAdres.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucOpdracht.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucTest.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucVoertuig.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmMain.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucContract.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.ucbedrijven.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmBedrijven.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.exe.config
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.exe
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CarBus.pdb
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.Properties.Resources.resources
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.exe
+C:\Users\Jeroen\Desktop\Applicatie\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CarBus.pdb

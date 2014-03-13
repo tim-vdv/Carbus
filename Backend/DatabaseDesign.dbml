@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Carbus" Class="DatabaseDesignDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=PC-TIM\SQLEXPRESS;Initial Catalog=Carbus;Integrated Security=True" SettingsObjectName="Backend.Properties.Settings" SettingsPropertyName="CarBusConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.accommodatie" Member="accommodaties">
+    <Type Name="accommodatie">
+      <Column Name="accommodatie_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="naam" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Association Name="accommodatie_voertuig_accomodatie" Member="voertuig_accomodaties" ThisKey="accommodatie_id" OtherKey="accommodatie_id" Type="voertuig_accomodatie" />
+    </Type>
+  </Table>
+  <Table Name="dbo.voertuig_accomodatie" Member="voertuig_accomodaties">
+    <Type Name="voertuig_accomodatie">
+      <Column Name="voertuig_accomodatie_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="voertuig_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="accommodatie_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="accommodatie_voertuig_accomodatie" Member="accommodatie" ThisKey="accommodatie_id" OtherKey="accommodatie_id" Type="accommodatie" IsForeignKey="true" />
+      <Association Name="voertuig_voertuig_accomodatie" Member="voertuig" ThisKey="voertuig_id" OtherKey="voertuig_id" Type="voertuig" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.activiteit" Member="activiteits">
+    <Type Name="activiteit">
+      <Column Name="activiteit_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="naam" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.bedrijf" Member="bedrijfs">
+    <Type Name="bedrijf">
+      <Column Name="bedrijf_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="naam" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="plaats" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Association Name="bedrijf_chauffeur" Member="chauffeurs" ThisKey="bedrijf_id" OtherKey="bedrijf_id" Type="chauffeur" />
+      <Association Name="bedrijf_gebruiker" Member="gebruikers" ThisKey="bedrijf_id" OtherKey="bedrijf_id" Type="gebruiker" />
+      <Association Name="bedrijf_klant" Member="klants" ThisKey="bedrijf_id" OtherKey="bedrijf_id" Type="klant" />
+      <Association Name="bedrijf_loonopgave_loonsoort" Member="loonopgave_loonsoorts" ThisKey="bedrijf_id" OtherKey="Bedrijf" Type="loonopgave_loonsoort" />
+      <Association Name="bedrijf_voertuig" Member="voertuigs" ThisKey="bedrijf_id" OtherKey="bedrijf_id" Type="voertuig" />
+      <Association Name="bedrijf_FactuurNummering" Member="FactuurNummerings" ThisKey="bedrijf_id" OtherKey="BedrijfID" Type="FactuurNummering" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BoekJaren" Member="BoekJarens">
+    <Type Name="BoekJaren">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Boekjaar" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartOpdracht" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.chauffeur" Member="chauffeurs">
+    <Type Name="chauffeur">
+      <Column Name="chauffeur_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="naam" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="voornaam_1" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="voornaam_2" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="in_dienst" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="uit_dienst" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="functie" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="geboortedatum" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="geboorteplaats" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="rijkregister_nr" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="aard_rijbewijs" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="nr_rijbewijs" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="schifting_geldig_tot" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="geslacht" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="burgerlijke_staat" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="partner" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kinderen_ten_laste" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="bankrekening" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="telefoon" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="gsm" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="fax" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="locatie_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="memo" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="identiteitskaart_nr" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="garage" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ancienniteit" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="badge" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="opmerkingen" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="bedrijf_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="chauffeur_loonopgave_opgave_dag" Member="loonopgave_opgave_dags" ThisKey="chauffeur_id" OtherKey="ChauffeurID" Type="loonopgave_opgave_dag" />
+      <Association Name="chauffeur_loonopgave_opgave_maand" Member="loonopgave_opgave_maands" ThisKey="chauffeur_id" OtherKey="chauffeur_id" Type="loonopgave_opgave_maand" />
+      <Association Name="chauffeur_opdracht_chauffeur" Member="opdracht_chauffeurs" ThisKey="chauffeur_id" OtherKey="chauffeur_id" Type="opdracht_chauffeur" />
+      <Association Name="chauffeur_opleiding" Member="opleidings" ThisKey="chauffeur_id" OtherKey="leverancier_id" Type="opleiding" />
+      <Association Name="chauffeur_rit_info" Member="rit_infos" ThisKey="chauffeur_id" OtherKey="rit1_chauffeur_id" Type="rit_info" />
+      <Association Name="chauffeur_rit_info1" Member="rit_infos1" ThisKey="chauffeur_id" OtherKey="rit2_chauffeur_id" Type="rit_info" />
+      <Association Name="bedrijf_chauffeur" Member="bedrijf" ThisKey="bedrijf_id" OtherKey="bedrijf_id" Type="bedrijf" IsForeignKey="true" />
+      <Association Name="locatie_chauffeur" Member="locatie" ThisKey="locatie_id" OtherKey="locatie_id" Type="locatie" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.contactGegevens" Member="contactGegevens">
+    <Type Name="contactGegeven">
+      <Column Name="contactgegevens_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="omschrijving" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="methode" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="contact_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.contract_factuur" Member="contract_factuurs">
+    <Type Name="contract_factuur">
+      <Column Name="contract_factuur_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="opdracht_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="periode_begin" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="periode_einde" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="prijs" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="betaald" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="betaling_memo" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Association Name="opdracht_contract_factuur" Member="opdracht" ThisKey="opdracht_id" OtherKey="opdracht_id" Type="opdracht" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.dagprijs_autocar" Member="dagprijs_autocars">
+    <Type Name="dagprijs_autocar">
+      <Column Name="dagprijs_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="prijs" Type="System.Decimal" DbType="Decimal(18,2) NOT NULL" CanBeNull="false" />
+      <Column Name="omschrijving" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="winstmarge" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="isGeldig" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="dagprijs_autocar_opdracht" Member="opdrachts" ThisKey="dagprijs_id" OtherKey="dagprijs_id" Type="opdracht" />
+    </Type>
+  </Table>
+  <Table Name="dbo.gebruiker" Member="gebruikers">
+    <Type Name="gebruiker">
+      <Column Name="gebruiker_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="login" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="wachtwoord" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="rechten" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="bedrijf_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="bedrijf_gebruiker" Member="bedrijf" ThisKey="bedrijf_id" OtherKey="bedrijf_id" Type="bedrijf" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.gemeente" Member="gemeentes">
+    <Type Name="gemeente">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="postcode" Type="System.String" DbType="VarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="naam" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="up" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="structuur" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.klant" Member="klants">
+    <Type Name="klant">
+      <Column Name="klant_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="naam" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="titel" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="activiteit" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="verantwoordelijke" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="btw_nummer" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="korting" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="aantal_facturen" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="vervaldagen_factuur" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="vervaldagen_offerte" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="telefoon" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="gsm" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="fax" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="memo" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="bedrijf_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="klant_locatie_klant" Member="locatie_klants" ThisKey="klant_id" OtherKey="klant_id" Type="locatie_klant" />
+      <Association Name="klant_opdracht" Member="opdrachts" ThisKey="klant_id" OtherKey="klant_id" Type="opdracht" />
+      <Association Name="bedrijf_klant" Member="bedrijf" ThisKey="bedrijf_id" OtherKey="bedrijf_id" Type="bedrijf" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.kmprijs_autocar" Member="kmprijs_autocars">
+    <Type Name="kmprijs_autocar">
+      <Column Name="kmprijs_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="prijs" Type="System.Decimal" DbType="Decimal(18,2) NOT NULL" CanBeNull="false" />
+      <Column Name="omschrijving" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="winstmarge" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="isValid" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="kmprijs_autocar_opdracht" Member="opdrachts" ThisKey="kmprijs_id" OtherKey="kmprijs_id" Type="opdracht" />
+    </Type>
+  </Table>
+  <Table Name="dbo.kost" Member="kosts">
+    <Type Name="kost">
+      <Column Name="kost_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="bedrag" Type="System.Decimal" DbType="Decimal(18,2) NOT NULL" CanBeNull="false" />
+      <Column Name="omschrijving" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Association Name="kost_opdracht_kost" Member="opdracht_kosts" ThisKey="kost_id" OtherKey="kost_id" Type="opdracht_kost" />
+    </Type>
+  </Table>
+  <Table Name="dbo.locatie_klant" Member="locatie_klants">
+    <Type Name="locatie_klant">
+      <Column Name="locatie_klant_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="locatie_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="klant_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="type" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Association Name="klant_locatie_klant" Member="klant" ThisKey="klant_id" OtherKey="klant_id" Type="klant" IsForeignKey="true" />
+      <Association Name="locatie_locatie_klant" Member="locatie" ThisKey="locatie_id" OtherKey="locatie_id" Type="locatie" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.locatie_opdracht" Member="locatie_opdrachts">
+    <Type Name="locatie_opdracht">
+      <Column Name="locatie_opdracht_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="locatie_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="opdracht_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="type" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Association Name="opdracht_locatie_opdracht" Member="opdracht" ThisKey="opdracht_id" OtherKey="opdracht_id" Type="opdracht" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="locatie_locatie_opdracht" Member="locatie" ThisKey="locatie_id" OtherKey="locatie_id" Type="locatie" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.loonopgave_loonsoort" Member="loonopgave_loonsoorts">
+    <Type Name="loonopgave_loonsoort">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PrestatieOmschrijving" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Bedrijf" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Uren" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="UrenNacht" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Uren12Plus" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Maaltijdcheque" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="DagVergoeding" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="OnderbrokenDienst" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="loonopgave_loonsoort_loonopgave_loonsoortenDag" Member="loonopgave_loonsoortenDags" ThisKey="ID" OtherKey="LoonsoortID" Type="loonopgave_loonsoortenDag" />
+      <Association Name="loonopgave_loonsoort_loonopgave_opgave_maand" Member="loonopgave_opgave_maands" ThisKey="ID" OtherKey="loonsoort_id" Type="loonopgave_opgave_maand" />
+      <Association Name="bedrijf_loonopgave_loonsoort" Member="bedrijf1" ThisKey="Bedrijf" OtherKey="bedrijf_id" Type="bedrijf" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.loonopgave_loonsoortenDag" Member="loonopgave_loonsoortenDags">
+    <Type Name="loonopgave_loonsoortenDag">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="opgave_dag_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LoonsoortID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Uren" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="UrenNacht" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Uren12plus" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="UrenExtra" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="amplitude" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="autocarvergoeding" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Maaltijdcheque" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Dagvergoeding" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Dienstvergoeding" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="OnderbrokenDienst" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="loonopgave_loonsoort_loonopgave_loonsoortenDag" Member="loonopgave_loonsoort" ThisKey="LoonsoortID" OtherKey="ID" Type="loonopgave_loonsoort" IsForeignKey="true" />
+      <Association Name="loonopgave_opgave_dag_loonopgave_loonsoortenDag" Member="loonopgave_opgave_dag" ThisKey="opgave_dag_id" OtherKey="ID" Type="loonopgave_opgave_dag" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.loonopgave_opgave_dag" Member="loonopgave_opgave_dags">
+    <Type Name="loonopgave_opgave_dag">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Datum" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ChauffeurID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="loonopgave_opgave_dag_loonopgave_loonsoortenDag" Member="loonopgave_loonsoortenDags" ThisKey="ID" OtherKey="opgave_dag_id" Type="loonopgave_loonsoortenDag" />
+      <Association Name="chauffeur_loonopgave_opgave_dag" Member="chauffeur" ThisKey="ChauffeurID" OtherKey="chauffeur_id" Type="chauffeur" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.loonopgave_opgave_maand" Member="loonopgave_opgave_maands">
+    <Type Name="loonopgave_opgave_maand">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="chauffeur_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="maand" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="loonsoort_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="autocar12plus" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="urennachtBG" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="onderbrokendiensten" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="verlofdagen" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="feestdagen" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="werkloosheidsdagen" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ziektedagen" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="dagenspeciaal" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="kleinverlet" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="gepresteerdeUren" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="teBetalenUren" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="urenOver" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="urenovervorigemaand" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="urenovervolgendemaand" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Association Name="chauffeur_loonopgave_opgave_maand" Member="chauffeur" ThisKey="chauffeur_id" OtherKey="chauffeur_id" Type="chauffeur" IsForeignKey="true" />
+      <Association Name="loonopgave_loonsoort_loonopgave_opgave_maand" Member="loonopgave_loonsoort" ThisKey="loonsoort_id" OtherKey="ID" Type="loonopgave_loonsoort" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.notities_agenda" Member="notities_agendas">
+    <Type Name="notities_agenda">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="note" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.opdracht_chauffeur" Member="opdracht_chauffeurs">
+    <Type Name="opdracht_chauffeur">
+      <Column Name="opdracht_chauffeur_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="opdracht_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="chauffeur_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="tweede_chauffeur" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="chauffeur_opdracht_chauffeur" Member="chauffeur" ThisKey="chauffeur_id" OtherKey="chauffeur_id" Type="chauffeur" IsForeignKey="true" />
+      <Association Name="opdracht_opdracht_chauffeur" Member="opdracht" ThisKey="opdracht_id" OtherKey="opdracht_id" Type="opdracht" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.opdracht_contract_rit" Member="opdracht_contract_rits">
+    <Type Name="opdracht_contract_rit">
+      <Column Name="opdracht_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="contract_rit_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="opdracht_opdracht_contract_rit" Member="opdracht" ThisKey="opdracht_id" OtherKey="opdracht_id" Type="opdracht" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="contract_rit_opdracht_contract_rit" Member="contract_rit" ThisKey="contract_rit_id" OtherKey="contract_rit_id" Type="contract_rit" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.opdracht_factuur" Member="opdracht_factuurs">
+    <Type Name="opdracht_factuur">
+      <Column Name="opdracht_factuur_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="opdracht_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="totaal_reis" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="voorschot" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="credit_omschrijving" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="credit_basis" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="credit_btwpercent" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="credit_btwbedrag" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="credit_inc" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Association Name="opdracht_factuur_opdracht_factuur_detail" Member="opdracht_factuur_details" ThisKey="opdracht_factuur_id" OtherKey="opdracht_factuur_id" Type="opdracht_factuur_detail" />
+      <Association Name="opdracht_opdracht_factuur" Member="opdracht" ThisKey="opdracht_id" OtherKey="opdracht_id" Type="opdracht" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.opdracht_factuur_detail" Member="opdracht_factuur_details">
+    <Type Name="opdracht_factuur_detail">
+      <Column Name="opdracht_facuur_detail_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="omschrijving" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="bedrag_basis" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="btw_percent" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="btw_bedrag" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="bedrag_inclusief" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="opdracht_factuur_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="opdracht_factuur_opdracht_factuur_detail" Member="opdracht_factuur" ThisKey="opdracht_factuur_id" OtherKey="opdracht_factuur_id" Type="opdracht_factuur" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.opdracht_kost" Member="opdracht_kosts">
+    <Type Name="opdracht_kost">
+      <Column Name="opdracht_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="kost_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="kost_opdracht_kost" Member="kost" ThisKey="kost_id" OtherKey="kost_id" Type="kost" IsForeignKey="true" />
+      <Association Name="opdracht_opdracht_kost" Member="opdracht" ThisKey="opdracht_id" OtherKey="opdracht_id" Type="opdracht" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.opdracht_reservatie" Member="opdracht_reservaties">
+    <Type Name="opdracht_reservatie">
+      <Column Name="opdracht_reservatie_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="opdracht_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="reservatie_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="reservatie_opdracht_reservatie" Member="reservatie" ThisKey="reservatie_id" OtherKey="reservatie_id" Type="reservatie" IsForeignKey="true" />
+      <Association Name="opdracht_opdracht_reservatie" Member="opdracht" ThisKey="opdracht_id" OtherKey="opdracht_id" Type="opdracht" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.opdracht_voertuig" Member="opdracht_voertuigs">
+    <Type Name="opdracht_voertuig">
+      <Column Name="opdracht_voertuig_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="opdracht_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="voertuig_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="voertuig_opdracht_voertuig" Member="voertuig" ThisKey="voertuig_id" OtherKey="voertuig_id" Type="voertuig" IsForeignKey="true" />
+      <Association Name="opdracht_opdracht_voertuig" Member="opdracht" ThisKey="opdracht_id" OtherKey="opdracht_id" Type="opdracht" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.opleiding" Member="opleidings">
+    <Type Name="opleiding">
+      <Column Name="opleiding_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="datum" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="plaats_instantie" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="omschrijving" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="geslaagd" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="leverancier_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="chauffeur_opleiding" Member="chauffeur" ThisKey="leverancier_id" OtherKey="chauffeur_id" Type="chauffeur" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.reservatie" Member="reservaties">
+    <Type Name="reservatie">
+      <Column Name="reservatie_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="prijs" Type="System.Decimal" DbType="Decimal(18,2) NOT NULL" CanBeNull="false" />
+      <Column Name="omschrijving" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="leverancier_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="reservatie_opdracht_reservatie" Member="opdracht_reservaties" ThisKey="reservatie_id" OtherKey="reservatie_id" Type="opdracht_reservatie" />
+      <Association Name="leverancier_reservatie" Member="leverancier" ThisKey="leverancier_id" OtherKey="leverancier_id" Type="leverancier" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.rit_instantie" Member="rit_instanties">
+    <Type Name="rit_instantie">
+      <Column Name="rit_instantie" Member="rit_instantie1" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="datum" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="contract_rit_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="rit_instantie_rit_info" Member="rit_infos" ThisKey="rit_instantie1" OtherKey="rit_instantie_id" Type="rit_info" />
+      <Association Name="contract_rit_rit_instantie" Member="contract_rit" ThisKey="contract_rit_id" OtherKey="contract_rit_id" Type="contract_rit" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.voertuig" Member="voertuigs">
+    <Type Name="voertuig">
+      <Column Name="voertuig_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="identificatie" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="nummerplaat" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="voertuigsoort" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="merk" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="type" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="onderstel_nr" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="motormerk" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="motortype" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="bouwjaar" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="ingebruikname" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="aankoopprijs" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="zitplaatsen" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="staanplaatsen" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sterren" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="memo" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="leverancier_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="bedrijf_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="voertuig_voertuig_accomodatie" Member="voertuig_accomodaties" ThisKey="voertuig_id" OtherKey="voertuig_id" Type="voertuig_accomodatie" />
+      <Association Name="voertuig_opdracht_voertuig" Member="opdracht_voertuigs" ThisKey="voertuig_id" OtherKey="voertuig_id" Type="opdracht_voertuig" />
+      <Association Name="voertuig_rit_info" Member="rit_infos" ThisKey="voertuig_id" OtherKey="rit1_voertuig_id" Type="rit_info" />
+      <Association Name="voertuig_rit_info1" Member="rit_infos1" ThisKey="voertuig_id" OtherKey="rit2_voertuig_id" Type="rit_info" />
+      <Association Name="bedrijf_voertuig" Member="bedrijf" ThisKey="bedrijf_id" OtherKey="bedrijf_id" Type="bedrijf" IsForeignKey="true" />
+      <Association Name="leverancier_voertuig" Member="leverancier" ThisKey="leverancier_id" OtherKey="leverancier_id" Type="leverancier" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FactuurNummering" Member="FactuurNummerings">
+    <Type Name="FactuurNummering">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FactuurNr" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FactuurJaar" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BedrijfID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="FactuurNummering_opdracht" Member="opdrachts" ThisKey="ID" OtherKey="FactuurNummeringID" Type="opdracht" />
+      <Association Name="FactuurNummering_opdracht1" Member="opdrachts1" ThisKey="ID" OtherKey="FactuurNummeringIDCredit" Type="opdracht" />
+      <Association Name="bedrijf_FactuurNummering" Member="bedrijf" ThisKey="BedrijfID" OtherKey="bedrijf_id" Type="bedrijf" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.opdracht" Member="opdrachts">
+    <Type Name="opdracht">
+      <Column Name="opdracht_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="klant_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="leverancier_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="dagprijs_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="kmprijs_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="vanaf_datum" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="tot_datum" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="vanaf_uur" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="tot_uur" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="aantal_personen" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="ritomschrijving" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="gezelschap" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="onkostenformulier" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="dienstvergoeding" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="btw_incl" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="memo_chauffeur" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="memo_algemeen" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="memo_intern" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="memo_bureel" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="autocarprijs" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="voorschot" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="voorschot_datum" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="ter_attentie_van" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="offerte_btw_bedrag" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="offerte_korting" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="offerte_vraagprijs" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="offerte_totaal" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="offerte_openstaand" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="offerte_kostprijs" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="offerte_winst" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="offerte_datum" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="offerte_vervaldatum" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="aantalkm" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ritboeknummer" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ritbladnummer" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="info_aantaldagen" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="info_aantalpersonen" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="info_totaalkm" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="info_beladenkm" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="info_ledigekm" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="info_totaalkm_buitenland" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="info_km_duitsland" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="info_km_binneland" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="info_verste_land" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="info_netto_ontvangst" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="info_datum" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="factuur_datum" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="factuur_vervaldatum" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="factuur_betaald" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="factuur_betalingmemo" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="factuur_betalingsdatum" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="factuur_betaald_voorschot" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="factuur_betalingmemo_voorschot" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="factuur_betalingsdatum_voorschot" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="opdracht_datum" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="contract" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="aanmaak_door" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="update_door" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="contract_dagprijs" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="offerte_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OfferteHidden" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="opdracht_id2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="factuur_idold" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="factuur_jaarold" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="bedrijf_idold" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FactuurNummeringID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FactuurNummeringIDCredit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="opdracht_contract_factuur" Member="contract_factuurs" ThisKey="opdracht_id" OtherKey="opdracht_id" Type="contract_factuur" />
+      <Association Name="opdracht_locatie_opdracht" Member="locatie_opdrachts" ThisKey="opdracht_id" OtherKey="opdracht_id" Type="locatie_opdracht" />
+      <Association Name="opdracht_opdracht_chauffeur" Member="opdracht_chauffeurs" ThisKey="opdracht_id" OtherKey="opdracht_id" Type="opdracht_chauffeur" />
+      <Association Name="opdracht_opdracht_contract_rit" Member="opdracht_contract_rits" ThisKey="opdracht_id" OtherKey="opdracht_id" Type="opdracht_contract_rit" />
+      <Association Name="opdracht_opdracht_factuur" Member="opdracht_factuurs" ThisKey="opdracht_id" OtherKey="opdracht_id" Type="opdracht_factuur" />
+      <Association Name="opdracht_opdracht_kost" Member="opdracht_kosts" ThisKey="opdracht_id" OtherKey="opdracht_id" Type="opdracht_kost" />
+      <Association Name="opdracht_opdracht_reservatie" Member="opdracht_reservaties" ThisKey="opdracht_id" OtherKey="opdracht_id" Type="opdracht_reservatie" />
+      <Association Name="opdracht_opdracht_voertuig" Member="opdracht_voertuigs" ThisKey="opdracht_id" OtherKey="opdracht_id" Type="opdracht_voertuig" />
+      <Association Name="opdracht_opdracht" Member="opdracht2" ThisKey="opdracht_id" OtherKey="opdracht_id" Type="opdracht" Cardinality="One" />
+      <Association Name="opdracht_opdracht_loonsoort" Member="opdracht_loonsoorts" ThisKey="opdracht_id" OtherKey="opdracht_id" Type="opdracht_loonsoort" />
+      <Association Name="dagprijs_autocar_opdracht" Member="dagprijs_autocar" ThisKey="dagprijs_id" OtherKey="dagprijs_id" Type="dagprijs_autocar" IsForeignKey="true" />
+      <Association Name="FactuurNummering_opdracht" Member="FactuurNummering" ThisKey="FactuurNummeringID" OtherKey="ID" Type="FactuurNummering" IsForeignKey="true" />
+      <Association Name="FactuurNummering_opdracht1" Member="FactuurNummering1" ThisKey="FactuurNummeringIDCredit" OtherKey="ID" Type="FactuurNummering" IsForeignKey="true" />
+      <Association Name="klant_opdracht" Member="klant" ThisKey="klant_id" OtherKey="klant_id" Type="klant" IsForeignKey="true" />
+      <Association Name="kmprijs_autocar_opdracht" Member="kmprijs_autocar" ThisKey="kmprijs_id" OtherKey="kmprijs_id" Type="kmprijs_autocar" IsForeignKey="true" />
+      <Association Name="opdracht_opdracht" Member="opdracht1" ThisKey="opdracht_id" OtherKey="opdracht_id" Type="opdracht" IsForeignKey="true" />
+      <Association Name="leverancier_opdracht" Member="leverancier" ThisKey="leverancier_id" OtherKey="leverancier_id" Type="leverancier" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.contract_rit" Member="contract_rits">
+    <Type Name="contract_rit">
+      <Column Name="contract_rit_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="dag" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="rit1_vertrek" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="rit1_terug" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="rit2_vertrek" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="rit2_terug" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="contract_rit_opdracht_contract_rit" Member="opdracht_contract_rits" ThisKey="contract_rit_id" OtherKey="contract_rit_id" Type="opdracht_contract_rit" />
+      <Association Name="contract_rit_rit_instantie" Member="rit_instanties" ThisKey="contract_rit_id" OtherKey="contract_rit_id" Type="rit_instantie" />
+    </Type>
+  </Table>
+  <Table Name="dbo.opdracht_loonsoort" Member="opdracht_loonsoorts">
+    <Type Name="opdracht_loonsoort">
+      <Column Name="opdracht_loonsoort_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="loonsoort_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="opdracht_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="aantal_dagen" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="opdracht_opdracht_loonsoort" Member="opdracht" ThisKey="opdracht_id" OtherKey="opdracht_id" Type="opdracht" IsForeignKey="true" />
+      <Association Name="loonsoort_opdracht_loonsoort" Member="loonsoort" ThisKey="loonsoort_id" OtherKey="loonsoort_id" Type="loonsoort" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.locatie" Member="locaties">
+    <Type Name="locatie">
+      <Column Name="locatie_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="straat" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="nr" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="postcode" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="plaats" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="land" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="omschrijving" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Association Name="locatie_chauffeur" Member="chauffeurs" ThisKey="locatie_id" OtherKey="locatie_id" Type="chauffeur" />
+      <Association Name="locatie_locatie_klant" Member="locatie_klants" ThisKey="locatie_id" OtherKey="locatie_id" Type="locatie_klant" />
+      <Association Name="locatie_locatie_opdracht" Member="locatie_opdrachts" ThisKey="locatie_id" OtherKey="locatie_id" Type="locatie_opdracht" />
+      <Association Name="locatie_leverancier" Member="leveranciers" ThisKey="locatie_id" OtherKey="locatie_id" Type="leverancier" />
+    </Type>
+  </Table>
+  <Table Name="dbo.loonsoort" Member="loonsoorts">
+    <Type Name="loonsoort">
+      <Column Name="loonsoort_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="bedrag" Type="System.Decimal" DbType="Decimal(18,2) NOT NULL" CanBeNull="false" />
+      <Column Name="omschrijving" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="geldig" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="loonsoort_opdracht_loonsoort" Member="opdracht_loonsoorts" ThisKey="loonsoort_id" OtherKey="loonsoort_id" Type="opdracht_loonsoort" />
+    </Type>
+  </Table>
+  <Table Name="dbo.rit_info" Member="rit_infos">
+    <Type Name="rit_info">
+      <Column Name="rit_info_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="rit1_ledigekm" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="rit1_beladenkm" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="rit1_aatal_personen" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rit1_chauffeur_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rit1_voertuig_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rit1_leverancier_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rit2_ledigekm" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="rit2_beladenkm" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="rit2_aantal_personen" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rit2_chauffeur_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rit2_voertuig_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rit2_leverancier_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="km_tussen_ritten" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="rit_instantie_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="rit1_vertrek" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="rit1_terug" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="rit2_vertrek" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="rit2_terug" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="chauffeur_rit_info" Member="chauffeur" ThisKey="rit1_chauffeur_id" OtherKey="chauffeur_id" Type="chauffeur" IsForeignKey="true" />
+      <Association Name="chauffeur_rit_info1" Member="chauffeur1" ThisKey="rit2_chauffeur_id" OtherKey="chauffeur_id" Type="chauffeur" IsForeignKey="true" />
+      <Association Name="rit_instantie_rit_info" Member="rit_instantie" ThisKey="rit_instantie_id" OtherKey="rit_instantie1" Type="rit_instantie" IsForeignKey="true" />
+      <Association Name="voertuig_rit_info" Member="voertuig" ThisKey="rit1_voertuig_id" OtherKey="voertuig_id" Type="voertuig" IsForeignKey="true" />
+      <Association Name="voertuig_rit_info1" Member="voertuig1" ThisKey="rit2_voertuig_id" OtherKey="voertuig_id" Type="voertuig" IsForeignKey="true" />
+      <Association Name="leverancier_rit_info" Member="leverancier" ThisKey="rit1_leverancier_id" OtherKey="leverancier_id" Type="leverancier" IsForeignKey="true" />
+      <Association Name="leverancier_rit_info1" Member="leverancier1" ThisKey="rit2_leverancier_id" OtherKey="leverancier_id" Type="leverancier" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.leverancier" Member="leveranciers">
+    <Type Name="leverancier">
+      <Column Name="leverancier_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="naam" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="titel" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="activiteit" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="verantwoordelijk" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="btw_nummer" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="bankrekening" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="vervaldagen" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="telefoon" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="gsm" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="fax" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="locatie_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="leverancier_reservatie" Member="reservaties" ThisKey="leverancier_id" OtherKey="leverancier_id" Type="reservatie" />
+      <Association Name="leverancier_voertuig" Member="voertuigs" ThisKey="leverancier_id" OtherKey="leverancier_id" Type="voertuig" />
+      <Association Name="leverancier_opdracht" Member="opdrachts" ThisKey="leverancier_id" OtherKey="leverancier_id" Type="opdracht" />
+      <Association Name="leverancier_rit_info" Member="rit_infos" ThisKey="leverancier_id" OtherKey="rit1_leverancier_id" Type="rit_info" />
+      <Association Name="leverancier_rit_info1" Member="rit_infos1" ThisKey="leverancier_id" OtherKey="rit2_leverancier_id" Type="rit_info" />
+      <Association Name="locatie_leverancier" Member="locatie" ThisKey="locatie_id" OtherKey="locatie_id" Type="locatie" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.progress" Member="progresses">
+    <Type Name="progress">
+      <Column Name="ProgressId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="OpdrachtId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OfferteOpgemaakt" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="OfferteVerzonden" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="OpdrachtAangemaakt" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="OpdrachtVerzonden" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PrinNatRitblad" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PrintINatRitblad" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PrintVoorschot" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PrintBevestiging" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="FactuurVoorschot" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="FactuurVolledig" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

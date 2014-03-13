@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Backend.AccomodatieManagement" Collapsed="true">
+    <Position X="54.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAACAACAAAAAA=</HashCode>
+      <FileName>AccomodatieManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.ActiviteitManagement" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAACAABAADAAAAEAAAAAAA=</HashCode>
+      <FileName>ActiviteitManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.AgendaManagement" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAIAAAIAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>AgendaManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.ChauffeurManagement" Collapsed="true">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAQAAAAACAQAAAAAgAQAAgEASAgACAAAAIAQAAAM=</HashCode>
+      <FileName>ChauffeurManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.ContractManagement" Collapsed="true">
+    <Position X="25.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wQAACIEIBCAQgAQAACAgABgJABgAIAIAi8EIIAAAAAM=</HashCode>
+      <FileName>ContractManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.DagprijsManagement" Collapsed="true">
+    <Position X="32" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAFACAAAAAAAAAAAAAAAAAABAAAAAAAIAAAA=</HashCode>
+      <FileName>DagprijsManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.loonsoort" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAADAAACAAIkaAEAIBQBiCBAAAAAChBIEAQwACA=</HashCode>
+      <FileName>DatabaseDesign.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.contract_factuur" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="52.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAARFCAAAAQAGQAFVgAQhiCIAEwABIKAIAIIAIYA=</HashCode>
+      <FileName>DatabaseDesign.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.dagprijs_autocar" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAACDgAAGAAAMQIEHAIAhiCiIAZAAAAAAAIQAACA=</HashCode>
+      <FileName>DatabaseDesign.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.kmprijs_autocar" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAADgAAOCIAEQQEnAIAhiCAAAZAAAEAAAAQAACA=</HashCode>
+      <FileName>DatabaseDesign.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.opdracht" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="52.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>17fv57rFuS3/93rqf0e9MPO37/d/xd3r/usf/q95j/w=</HashCode>
+      <FileName>DatabaseDesign.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.klant" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CYG5QAwFlBQlSQEgRgMbAIrnmqdgEABOINTBAAIQDCc=</HashCode>
+      <FileName>DatabaseDesign.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.leverancier" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQS5QKxFgIAnQRCgVwMTQIBFmqQkEAAGAPAPgIIACGs=</HashCode>
+      <FileName>DatabaseDesign.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.chauffeur" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>44SzzbDdxJxhQcmgxQ8xQVJniq61qfEOFucPEI+NLEs=</HashCode>
+      <FileName>DatabaseDesign.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.voertuig" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="57.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCEsRvhHtkWTMAVCRSNhqAEpm6IJQECJACAeGtYFnAg=</HashCode>
+      <FileName>DatabaseDesign.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.locatie" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwmAIQDgAADAJIEQAGQAcCFiOQggEEAgiAGBAbACCg=</HashCode>
+      <FileName>DatabaseDesign.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.DatabaseDesignDataContext" Collapsed="true">
+    <Position X="57.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>rryXunLeg5RiP6j8CR07TRATxOQw2EYfEXpeGtHxQMU=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.accommodatie" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="52.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAFAAAAAAAAQAGABABJiCQgAACAAAAQEAAEAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.voertuig_accomodatie" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgACABAAABQAAAQEGkBAABiSAAAACAAAAUAEAAgBA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.activiteit" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAgAAABAAAAAIAAQAEAAABBiDQgABAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.bedrijf" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="57.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAQgAKCBAAAECBEgZAGQAQBRiKQgACAIFACCgQBABAs=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.BoekJaren" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAoAAABAAAAgAAAQAEEAAABiCIAEACAAJiAAAAEAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.contactGegeven" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="63" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAABDAAwCAAAAQAEAAAABiGAgAQAAQAABIAQwACA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.gebruiker" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAhCQAJBAABAAEgVIEQAACBiKAAABCIAIAAIAAAHAE=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.gemeente" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="63" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAgABAAAAAAIAQGFAAEBBjKQgAAAAAgAAAxAQQgI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.kost" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="57.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAgADAAAiAEAESAGAAAQBiKBAAAAAAAAAAAQEADA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.locatie_klant" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="63" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgQACBEgAgAARgQAEAAAAFiiRBEAAAAAAGAAAACAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.locatie_opdracht" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="52.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAABCgEAAIRgQAEBQAAliiQBAAACAKAEAAAACIA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.loonopgave_loonsoort" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAiAIlRAAICiAgASgPnCAgDiCSABAAAAhgICEgMCBA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.loonopgave_loonsoortenDag" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQigIrVkCIAmAAAUAH2CIAHyCCKRBYAJhIACAAUKDA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.loonopgave_opgave_dag" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="57.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAABBAAAgAAAQAFFAAgBiDAKAAAAABAIhEAEEBA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.loonopgave_opgave_maand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICS6gABBAELAlZBiyFksBAUVqGAuMFCAChEAEkIUWUQ=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.notities_agenda" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="63" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAwAgABAAAAQAAARAFAAAABjCAAAAAAAAAACQAQAgA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.opdracht_chauffeur" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAAABCAAAAAAAQgUBQAIhiSCIIAAAAKEAEAAEkIA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.opdracht_contract_rit" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAABCAAAAAAQQCEBAAAjiCBAAQAEAKAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.opdracht_factuur" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="57.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICgCAIDKAgIJQgCUEEBChghiCEgxIAAAKEAAIAAAIA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.opdracht_factuur_detail" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFgCBADhAACAAAEQQEBAFARmCBDAAgggAAAAAQICKA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.opdracht_kost" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAgABCAAAAEAAQAEBAAAhiCAAEAAAAKAAAAAMAIA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.opdracht_reservatie" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="52.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABiAAABCAAAAAASUCEBAAAjmCAAAAAAAKAIBAAAAIA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.opdracht_voertuig" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAgACABCgAAAAAQQAEFAAAhiCBAAAAAAKAEAEAAgIA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.opleiding" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAgACADAAASAAAQRQEBAAAhiCAMCAYAAgIqBAQAEGA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.reservatie" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAiACADAAASAAAWQAEEAAAhiCAAAUAgAAAKAAQABCA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.rit_instantie" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="63" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgQAABAAAAAAIQQSEBAAADqCBAAQQEAgAABIAQAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.FactuurNummering" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAABAAAFgAAIQgEfAIIBiCARQAgAAJCAAAAGCgI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.contract_rit" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MBggAAABAAogAACAQAEUAAQDiGBDAYAEGECASAAAAAQ=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.opdracht_loonsoort" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="63" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgABABCBAAAICgQAEBCABhiCAAAACACqBAEAAAQIA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.rit_info" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>NATlISCpIGoBAAAqTg9UABRBnKAuAcAAuGQIzIYEGBw=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend.DataContext" Collapsed="true">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.FactuurManagement" Collapsed="true">
+    <Position X="18.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAQACAQAgAAAEAQAEAABCAABBAQgAEiAAAAAgAAQA=</HashCode>
+      <FileName>FactuurManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.GebruikerManagement" Collapsed="true">
+    <Position X="27.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAgAAAAAAiIBAABAQAAAAAAgAAAAAIAAAAAAAA=</HashCode>
+      <FileName>GebruikerManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.InfoManagement" Collapsed="true">
+    <Position X="34.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAECABIAAAAAAAAAAAAAAAIAIAAAAAAAAAAYAAAAAA=</HashCode>
+      <FileName>InfoManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.KlantManagement" Collapsed="true">
+    <Position X="41" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAgAAAQAQAACAAAAAAAAAAACAGAAAACAAAAAADCAwAI=</HashCode>
+      <FileName>KlantManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.KmprijsManagement" Collapsed="true">
+    <Position X="45.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAQAAAAAAAAAAAAAAAAAAAAAAABAEAAABgAAAAA=</HashCode>
+      <FileName>KmprijsManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.KostManagement" Collapsed="true">
+    <Position X="50" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAIAAgAAAAAAAEABAAAAAQAAAAAA=</HashCode>
+      <FileName>KostManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.LeverancierManagement" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACAAAAAQgAAAAAAAAAAABAAAAAFAAACAAAAAAAEAEA=</HashCode>
+      <FileName>LeverancierManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.LocatieManagement" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAMCACAAAEAg=</HashCode>
+      <FileName>LocatieManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.LoonopgaveManagement" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACAAAAAAAAAAABAAAAgAAAEoAABgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LoonopgaveManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.LoonSoortManagement" Collapsed="true">
+    <Position X="20.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAAIACAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAA=</HashCode>
+      <FileName>LoonSoortManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.OfferteManagement" Collapsed="true">
+    <Position X="29.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBBgBAABAECAAAAAgAQgQAAIAACgCAEAAAAEAAEAA=</HashCode>
+      <FileName>OfferteManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.OpdrachtManagement" Collapsed="true">
+    <Position X="36.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAAEEhEoBIEAAAAACQgUwAgggQAAMAAQAAACIBQAAMA=</HashCode>
+      <FileName>OpdrachtManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.OpstapplaatsManagement" Collapsed="true">
+    <Position X="43.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OpstapplaatsManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.PostcodeConverter" Collapsed="true">
+    <Position X="47.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PostcodeConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.PrintManagement" Collapsed="true">
+    <Position X="57.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>PrintManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.ProgressManagement" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>ProgressManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.ReservatieManagement" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReservatieManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.Singleton" Collapsed="true">
+    <Position X="54.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAQEAAAAAAAAA=</HashCode>
+      <FileName>Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.StatistiekManagement" Collapsed="true">
+    <Position X="23" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StatistiekManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.Validation" Collapsed="true">
+    <Position X="56" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAgAAAABAAAAAAAIBgAQAAAADAA=</HashCode>
+      <FileName>Validation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.VoertuigManagement" Collapsed="true">
+    <Position X="38.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICgAAACgAAAgAAAAAQACIAAABAAAAABEACAECAAAABA=</HashCode>
+      <FileName>VoertuigManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.Properties.Settings" Collapsed="true">
+    <Position X="52.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAECAAAIAAAAAABAAAAAAEAAAAACAA=</HashCode>
+      <FileName>Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.Properties.GlobalVariables" Collapsed="true">
+    <Position X="52.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
